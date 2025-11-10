@@ -1,42 +1,77 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+@import "tailwindcss";
+
+/* Paleta (light / dark) */
+:root {
+  --color-bg: #F5F6FA;
+  --color-card: #FFFFFF;
+  --color-border: #E6E8EF;
+  --color-text: #1E1E2E;
+  --color-muted: #6B6E76;
+  --color-primary: #5B3E96;
+  --color-primary-foreground: #FFFFFF;
+  --color-secondary: #FFB800;
+  --color-secondary-foreground: #1E1E2E;
+  --ring: var(--color-primary);
+}
+.dark {
+  --color-bg: #1E1E2E;
+  --color-card: #2A2A3C;
+  --color-border: #35354B;
+  --color-text: #EAEAEA;
+  --color-muted: #B9BBC6;
+  --color-primary: #A58BEB;
+  --color-primary-foreground: #1E1E2E;
+  --color-secondary: #FFD466;
+  --color-secondary-foreground: #1E1E2E;
+  --ring: var(--color-primary);
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+.token-bg    { background: var(--color-bg); }
+.token-card  { background: var(--color-card); }
+.token-text  { color: var(--color-text); }
+.token-muted { color: var(--color-muted); }
+
+.token-border { border-color: var(--color-border); }
+
+/* Botões e componentes */
+.btn {
+  @apply inline-flex items-center justify-center gap-2 rounded-2xl px-4 py-2 text-sm font-medium shadow-sm ring-1 transition;
+  /* ring-base */
+  --tw-ring-color: color-mix(in oklab, var(--ring) 60%, transparent);
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+.btn-primary {
+  background: var(--color-primary);
+  color: var(--color-primary-foreground);
 }
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.btn-primary:hover { filter: brightness(0.95); }
+
+.btn-secondary {
+  background: var(--color-secondary);
+  color: var(--color-secondary-foreground);
+}
+.btn-secondary:hover { filter: saturate(1.05) brightness(0.98); }
+
+.btn-ghost { @apply hover:bg-black/5 dark:hover:bg-white/5; }
+
+.input {
+  @apply w-full rounded-xl border px-4 py-2 text-sm focus:outline-none focus:ring-4;
+  background: var(--color-card);
+  color: var(--color-text);
+  border-color: var(--color-border);                 
+  --tw-ring-color: color-mix(in oklab, var(--ring) 60%, transparent);
+}
+.input::placeholder {
+  color: var(--color-muted);                          
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.badge {
+  @apply rounded-full border px-3 py-1 text-xs;
+  background: var(--color-bg);
+  color: var(--color-muted);                           
+  border-color: var(--color-border);                 
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
 .card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+  @apply rounded-2xl border shadow-sm;
+  background: var(--color-card);
+  border-color: var(--color-border);                  
 }
