@@ -1,26 +1,482 @@
 [
   {
     "id": 1,
-    "nome": "Walter Toledo",
-    "area": "Desenvolvimento Full Stack",
+    "nome": "Lucas Andrade",
+    "area": "tecnolo",
     "senioridade": "Pleno",
-    "descricao": "Desenvolvedor com experiência em React, Node.js e banco de dados.",
-    "avatar": "https://randomuser.me/api/portraits/men/10.jpg"
+    "descricao": "Desenvolvedor com experiência em React, Node.js e integração de APIs REST.",
+    "avatar": "https://randomuser.me/api/portraits/men/1.jpg"
   },
   {
     "id": 2,
-    "nome": "Theodoro Sievers",
+    "nome": "Carla Menezes",
     "area": "UI/UX Design",
     "senioridade": "Sênior",
-    "descricao": "Designer especializado em experiência do usuário e design de interfaces.",
-    "avatar": "https://randomuser.me/api/portraits/men/45.jpg"
+    "descricao": "Designer especializada em prototipagem e experiência do usuário em produtos digitais.",
+    "avatar": "https://randomuser.me/api/portraits/women/2.jpg"
   },
   {
     "id": 3,
-    "nome": "José Rafael",
+    "nome": "Rafael Monteiro",
     "area": "Gestão de Projetos",
     "senioridade": "Júnior",
-    "descricao": "Profissional focado em gestão ágil e planejamento estratégico.",
+    "descricao": "Profissional focado em metodologias ágeis e Scrum Master iniciante.",
+    "avatar": "https://randomuser.me/api/portraits/men/3.jpg"
+  },
+  {
+    "id": 4,
+    "nome": "Amanda Carvalho",
+    "area": "Marketing Digital",
+    "senioridade": "Pleno",
+    "descricao": "Especialista em campanhas online, SEO e mídias sociais.",
+    "avatar": "https://randomuser.me/api/portraits/women/4.jpg"
+  },
+  {
+    "id": 5,
+    "nome": "Vinícius Pires",
+    "area": "Análise de Dados",
+    "senioridade": "Sênior",
+    "descricao": "Analista com foco em Power BI, SQL e ciência de dados aplicada a negócios.",
+    "avatar": "https://randomuser.me/api/portraits/men/5.jpg"
+  },
+  {
+    "id": 6,
+    "nome": "Marina Costa",
+    "area": "Desenvolvimento Front-end",
+    "senioridade": "Júnior",
+    "descricao": "Front-end focada em interfaces responsivas e acessibilidade com React.",
+    "avatar": "https://randomuser.me/api/portraits/women/6.jpg"
+  },
+  {
+    "id": 7,
+    "nome": "Tiago Nogueira",
+    "area": "DevOps",
+    "senioridade": "Pleno",
+    "descricao": "Engenheiro DevOps com experiência em Docker, AWS e pipelines CI/CD.",
+    "avatar": "https://randomuser.me/api/portraits/men/7.jpg"
+  },
+  {
+    "id": 8,
+    "nome": "Juliana Freitas",
+    "area": "Design de Produto",
+    "senioridade": "Sênior",
+    "descricao": "Designer voltada à criação de soluções centradas no usuário.",
+    "avatar": "https://randomuser.me/api/portraits/women/8.jpg"
+  },
+  {
+    "id": 9,
+    "nome": "Gabriel Moreira",
+    "area": "Análise de Dados",
+    "senioridade": "Pleno",
+    "descricao": "Analista de dados especializado em Python e estatística aplicada.",
+    "avatar": "https://randomuser.me/api/portraits/men/9.jpg"
+  },
+  {
+    "id": 10,
+    "nome": "Fernanda Almeida",
+    "area": "Marketing Digital",
+    "senioridade": "Sênior",
+    "descricao": "Profissional de marketing com experiência em branding e copywriting.",
+    "avatar": "https://randomuser.me/api/portraits/women/10.jpg"
+  },
+  {
+    "id": 11,
+    "nome": "Eduardo Lima",
+    "area": "Desenvolvimento Back-end",
+    "senioridade": "Pleno",
+    "descricao": "Back-end developer com foco em APIs escaláveis e banco de dados NoSQL.",
+    "avatar": "https://randomuser.me/api/portraits/men/11.jpg"
+  },
+  {
+    "id": 12,
+    "nome": "Larissa Rocha",
+    "area": "UI/UX Design",
+    "senioridade": "Júnior",
+    "descricao": "Designer iniciante focada em wireframes e design de aplicativos mobile.",
+    "avatar": "https://randomuser.me/api/portraits/women/12.jpg"
+  },
+  {
+    "id": 13,
+    "nome": "Pedro Oliveira",
+    "area": "Desenvolvimento Full Stack",
+    "senioridade": "Sênior",
+    "descricao": "Engenheiro de software com experiência em sistemas complexos e escaláveis.",
+    "avatar": "https://randomuser.me/api/portraits/men/13.jpg"
+  },
+  {
+    "id": 14,
+    "nome": "Beatriz Correia",
+    "area": "Design Gráfico",
+    "senioridade": "Pleno",
+    "descricao": "Criadora visual com experiência em identidade de marca e motion design.",
+    "avatar": "https://randomuser.me/api/portraits/women/14.jpg"
+  },
+  {
+    "id": 15,
+    "nome": "André Ferreira",
+    "area": "Análise de Dados",
+    "senioridade": "Júnior",
+    "descricao": "Analista iniciante com foco em dashboards e visualização de dados.",
+    "avatar": "https://randomuser.me/api/portraits/men/15.jpg"
+  },
+  {
+    "id": 16,
+    "nome": "Camila Duarte",
+    "area": "Marketing Digital",
+    "senioridade": "Pleno",
+    "descricao": "Estrategista de marketing com foco em tráfego pago e automação.",
+    "avatar": "https://randomuser.me/api/portraits/women/16.jpg"
+  },
+  {
+    "id": 17,
+    "nome": "Henrique Cardoso",
+    "area": "Desenvolvimento Mobile",
+    "senioridade": "Sênior",
+    "descricao": "Desenvolvedor mobile com experiência em React Native e Flutter.",
+    "avatar": "https://randomuser.me/api/portraits/men/17.jpg"
+  },
+  {
+    "id": 18,
+    "nome": "Patrícia Reis",
+    "area": "UI/UX Design",
+    "senioridade": "Pleno",
+    "descricao": "Designer focada em pesquisas de usabilidade e experiência visual.",
+    "avatar": "https://randomuser.me/api/portraits/women/18.jpg"
+  },
+  {
+    "id": 19,
+    "nome": "Marcelo Azevedo",
+    "area": "DevOps",
+    "senioridade": "Júnior",
+    "descricao": "Profissional em início de carreira com foco em automação de deploys.",
+    "avatar": "https://randomuser.me/api/portraits/men/19.jpg"
+  },
+  {
+    "id": 20,
+    "nome": "Renata Barros",
+    "area": "Design de Produto",
+    "senioridade": "Pleno",
+    "descricao": "Designer centrada no usuário com foco em soluções intuitivas.",
+    "avatar": "https://randomuser.me/api/portraits/women/20.jpg"
+  },
+  {
+    "id": 21,
+    "nome": "Rodrigo Sampaio",
+    "area": "Análise de Dados",
+    "senioridade": "Sênior",
+    "descricao": "Analista experiente com background em machine learning e estatística.",
+    "avatar": "https://randomuser.me/api/portraits/men/21.jpg"
+  },
+  {
+    "id": 22,
+    "nome": "Lívia Furtado",
+    "area": "Marketing Digital",
+    "senioridade": "Júnior",
+    "descricao": "Profissional criativa especializada em redes sociais e storytelling.",
+    "avatar": "https://randomuser.me/api/portraits/women/22.jpg"
+  },
+  {
+    "id": 23,
+    "nome": "Fábio Nascimento",
+    "area": "Desenvolvimento Full Stack",
+    "senioridade": "Pleno",
+    "descricao": "Desenvolvedor com sólida experiência em React, Node e SQL.",
+    "avatar": "https://randomuser.me/api/portraits/men/23.jpg"
+  },
+  {
+    "id": 24,
+    "nome": "Tatiane Ribeiro",
+    "area": "Design Gráfico",
+    "senioridade": "Sênior",
+    "descricao": "Designer gráfica focada em branding e comunicação visual.",
+    "avatar": "https://randomuser.me/api/portraits/women/24.jpg"
+  },
+  {
+    "id": 25,
+    "nome": "Ricardo Almeida",
+    "area": "Desenvolvimento Back-end",
+    "senioridade": "Júnior",
+    "descricao": "Back-end focado em Node.js e estrutura de APIs RESTful.",
+    "avatar": "https://randomuser.me/api/portraits/men/25.jpg"
+  },
+  {
+    "id": 26,
+    "nome": "Isabela Santos",
+    "area": "UI/UX Design",
+    "senioridade": "Sênior",
+    "descricao": "Designer com foco em design inclusivo e acessibilidade digital.",
+    "avatar": "https://randomuser.me/api/portraits/women/26.jpg"
+  },
+  {
+    "id": 27,
+    "nome": "Leonardo Martins",
+    "area": "DevOps",
+    "senioridade": "Pleno",
+    "descricao": "Engenheiro DevOps especializado em pipelines GitHub Actions e AWS.",
+    "avatar": "https://randomuser.me/api/portraits/men/27.jpg"
+  },
+  {
+    "id": 28,
+    "nome": "Catarina Silva",
+    "area": "Design de Produto",
+    "senioridade": "Pleno",
+    "descricao": "Designer de produto apaixonada por testes A/B e feedbacks reais.",
+    "avatar": "https://randomuser.me/api/portraits/women/28.jpg"
+  },
+  {
+    "id": 29,
+    "nome": "Gustavo Pereira",
+    "area": "Análise de Dados",
+    "senioridade": "Júnior",
+    "descricao": "Analista focado em modelagem de dados e relatórios interativos.",
+    "avatar": "https://randomuser.me/api/portraits/men/29.jpg"
+  },
+  {
+    "id": 30,
+    "nome": "Natália Teixeira",
+    "area": "Marketing Digital",
+    "senioridade": "Pleno",
+    "descricao": "Estrategista de conteúdo e especialista em marketing de influência.",
+    "avatar": "https://randomuser.me/api/portraits/women/30.jpg"
+  },
+  {
+    "id": 31,
+    "nome": "Caio Barbosa",
+    "area": "Desenvolvimento Front-end",
+    "senioridade": "Sênior",
+    "descricao": "Front-end engineer com expertise em Next.js e animações com Framer Motion.",
+    "avatar": "https://randomuser.me/api/portraits/men/31.jpg"
+  },
+  {
+    "id": 32,
+    "nome": "Helena Brito",
+    "area": "Design Gráfico",
+    "senioridade": "Pleno",
+    "descricao": "Profissional criativa com foco em identidade visual e packaging.",
+    "avatar": "https://randomuser.me/api/portraits/women/32.jpg"
+  },
+  {
+    "id": 33,
+    "nome": "Bruno Nunes",
+    "area": "Desenvolvimento Back-end",
+    "senioridade": "Sênior",
+    "descricao": "Back-end developer com experiência em microserviços e escalabilidade.",
     "avatar": "https://randomuser.me/api/portraits/men/33.jpg"
+  },
+  {
+    "id": 34,
+    "nome": "Luiza Pimenta",
+    "area": "UI/UX Design",
+    "senioridade": "Júnior",
+    "descricao": "Designer júnior com foco em design system e prototipagem rápida.",
+    "avatar": "https://randomuser.me/api/portraits/women/34.jpg"
+  },
+  {
+    "id": 35,
+    "nome": "Felipe Souza",
+    "area": "Desenvolvimento Full Stack",
+    "senioridade": "Pleno",
+    "descricao": "Desenvolvedor com experiência em integração de APIs e banco de dados MongoDB.",
+    "avatar": "https://randomuser.me/api/portraits/men/35.jpg"
+  },
+  {
+    "id": 36,
+    "nome": "Carolina Moreira",
+    "area": "Design de Produto",
+    "senioridade": "Sênior",
+    "descricao": "Designer com foco em design estratégico e liderança de times criativos.",
+    "avatar": "https://randomuser.me/api/portraits/women/36.jpg"
+  },
+  {
+    "id": 37,
+    "nome": "João Pedro",
+    "area": "Análise de Dados",
+    "senioridade": "Pleno",
+    "descricao": "Analista com experiência em modelagem preditiva e SQL avançado.",
+    "avatar": "https://randomuser.me/api/portraits/men/37.jpg"
+  },
+  {
+    "id": 38,
+    "nome": "Gabriela Lima",
+    "area": "Marketing Digital",
+    "senioridade": "Júnior",
+    "descricao": "Especialista em tráfego orgânico e SEO on-page.",
+    "avatar": "https://randomuser.me/api/portraits/women/38.jpg"
+  },
+  {
+    "id": 39,
+    "nome": "Diego Rocha",
+    "area": "Desenvolvimento Mobile",
+    "senioridade": "Pleno",
+    "descricao": "Desenvolvedor mobile com experiência em Kotlin e integração com APIs.",
+    "avatar": "https://randomuser.me/api/portraits/men/39.jpg"
+  },
+  {
+    "id": 40,
+    "nome": "Letícia Campos",
+    "area": "Design Gráfico",
+    "senioridade": "Sênior",
+    "descricao": "Designer experiente com foco em tipografia e composição visual.",
+    "avatar": "https://randomuser.me/api/portraits/women/40.jpg"
+  },
+  {
+    "id": 41,
+    "nome": "Murilo Fonseca",
+    "area": "Desenvolvimento Back-end",
+    "senioridade": "Pleno",
+    "descricao": "Back-end com domínio em Express e PostgreSQL.",
+    "avatar": "https://randomuser.me/api/portraits/men/41.jpg"
+  },
+  {
+    "id": 42,
+    "nome": "Débora Tavares",
+    "area": "UI/UX Design",
+    "senioridade": "Sênior",
+    "descricao": "Especialista em arquitetura da informação e experiência de usuário.",
+    "avatar": "https://randomuser.me/api/portraits/women/42.jpg"
+  },
+  {
+    "id": 43,
+    "nome": "Caue Mello",
+    "area": "Desenvolvimento Full Stack",
+    "senioridade": "Júnior",
+    "descricao": "Desenvolvedor em formação com foco em JavaScript e banco de dados.",
+    "avatar": "https://randomuser.me/api/portraits/men/43.jpg"
+  },
+  {
+    "id": 44,
+    "nome": "Yasmin Soares",
+    "area": "Design de Produto",
+    "senioridade": "Pleno",
+    "descricao": "Designer voltada a criar soluções de alto impacto e usabilidade.",
+    "avatar": "https://randomuser.me/api/portraits/women/44.jpg"
+  },
+  {
+    "id": 45,
+    "nome": "Anderson Moraes",
+    "area": "Análise de Dados",
+    "senioridade": "Sênior",
+    "descricao": "Cientista de dados com foco em modelos preditivos e IA aplicada.",
+    "avatar": "https://randomuser.me/api/portraits/men/45.jpg"
+  },
+  {
+    "id": 46,
+    "nome": "Bianca Freire",
+    "area": "Marketing Digital",
+    "senioridade": "Pleno",
+    "descricao": "Profissional criativa com foco em campanhas e análise de métricas.",
+    "avatar": "https://randomuser.me/api/portraits/women/46.jpg"
+  },
+  {
+    "id": 47,
+    "nome": "Rogério Prado",
+    "area": "Desenvolvimento Back-end",
+    "senioridade": "Sênior",
+    "descricao": "Desenvolvedor com experiência em arquiteturas escaláveis e segurança.",
+    "avatar": "https://randomuser.me/api/portraits/men/47.jpg"
+  },
+  {
+    "id": 48,
+    "nome": "Sofia Martins",
+    "area": "UI/UX Design",
+    "senioridade": "Pleno",
+    "descricao": "Designer com foco em microinterações e consistência visual.",
+    "avatar": "https://randomuser.me/api/portraits/women/48.jpg"
+  },
+  {
+    "id": 49,
+    "nome": "Matheus Lopes",
+    "area": "Desenvolvimento Full Stack",
+    "senioridade": "Sênior",
+    "descricao": "Engenheiro full stack com foco em performance e escalabilidade.",
+    "avatar": "https://randomuser.me/api/portraits/men/49.jpg"
+  },
+  {
+    "id": 50,
+    "nome": "Daniela Pacheco",
+    "area": "Design de Produto",
+    "senioridade": "Sênior",
+    "descricao": "Designer de produto com foco em UX writing e acessibilidade.",
+    "avatar": "https://randomuser.me/api/portraits/women/50.jpg"
+  },
+  {
+    "id": 51,
+    "nome": "Arthur Silva",
+    "area": "Desenvolvimento Mobile",
+    "senioridade": "Júnior",
+    "descricao": "Desenvolvedor focado em apps híbridos e integrações API.",
+    "avatar": "https://randomuser.me/api/portraits/men/51.jpg"
+  },
+  {
+    "id": 52,
+    "nome": "Paula Mendes",
+    "area": "Marketing Digital",
+    "senioridade": "Pleno",
+    "descricao": "Profissional de marketing com experiência em funil de vendas e inbound.",
+    "avatar": "https://randomuser.me/api/portraits/women/52.jpg"
+  },
+  {
+    "id": 53,
+    "nome": "Ricardo Teles",
+    "area": "Análise de Dados",
+    "senioridade": "Pleno",
+    "descricao": "Analista de dados com foco em KPIs e dashboards executivos.",
+    "avatar": "https://randomuser.me/api/portraits/men/53.jpg"
+  },
+  {
+    "id": 54,
+    "nome": "Bruna Queiroz",
+    "area": "UI/UX Design",
+    "senioridade": "Sênior",
+    "descricao": "Especialista em experiência mobile-first e design acessível.",
+    "avatar": "https://randomuser.me/api/portraits/women/54.jpg"
+  },
+  {
+    "id": 55,
+    "nome": "Leandro Paiva",
+    "area": "Desenvolvimento Front-end",
+    "senioridade": "Pleno",
+    "descricao": "Desenvolvedor front-end com domínio em Tailwind e React.",
+    "avatar": "https://randomuser.me/api/portraits/men/55.jpg"
+  },
+  {
+    "id": 56,
+    "nome": "Tatiana Lopes",
+    "area": "Design Gráfico",
+    "senioridade": "Júnior",
+    "descricao": "Designer júnior criativa com foco em social media e layouts digitais.",
+    "avatar": "https://randomuser.me/api/portraits/women/56.jpg"
+  },
+  {
+    "id": 57,
+    "nome": "Eduardo Reis",
+    "area": "Análise de Dados",
+    "senioridade": "Sênior",
+    "descricao": "Analista especializado em Big Data e modelagem estatística.",
+    "avatar": "https://randomuser.me/api/portraits/men/57.jpg"
+  },
+  {
+    "id": 58,
+    "nome": "Melissa Rocha",
+    "area": "Design de Produto",
+    "senioridade": "Pleno",
+    "descricao": "Designer de produto voltada à experiência cross-platform.",
+    "avatar": "https://randomuser.me/api/portraits/women/58.jpg"
+  },
+  {
+    "id": 59,
+    "nome": "Otávio Figueiredo",
+    "area": "Desenvolvimento Full Stack",
+    "senioridade": "Pleno",
+    "descricao": "Desenvolvedor focado em React, Node e arquitetura de microsserviços.",
+    "avatar": "https://randomuser.me/api/portraits/men/59.jpg"
+  },
+  {
+    "id": 60,
+    "nome": "Aline Ferreira",
+    "area": "UI/UX Design",
+    "senioridade": "Sênior",
+    "descricao": "Designer de experiência com foco em acessibilidade e usabilidade.",
+    "avatar": "https://randomuser.me/api/portraits/women/60.jpg"
   }
 ]

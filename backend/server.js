@@ -4,67 +4,68 @@ import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
 
+// === Configuração de caminhos ===
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+const dataPath = path.join(__dirname, "data", "profiles.json");
+
 const app = express();
 const PORT = 5000;
 
-// Corrige caminhos absolutos
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-
+// === Middlewares ===
 app.use(cors());
 app.use(express.json());
 
-// Caminho correto para o arquivo JSON
-const dataPath = path.join(__dirname, "data", "profiles.json");
-
-// Tenta carregar o arquivo JSON
+// === Carregar os perfis do arquivo JSON ===
 let profiles = [];
+
 try {
   const jsonData = fs.readFileSync(dataPath, "utf-8");
   profiles = JSON.parse(jsonData);
-  console.log("✅ Perfis carregados com sucesso!");
+  console.log(`✅ Perfis carregados com sucesso! (${profiles.length} perfis)`);
 } catch (error) {
   console.error("❌ Erro ao ler o arquivo profiles.json:", error.message);
 }
 
-// Rota principal - retorna todos os perfis
+// === Rota principal - retorna todos os perfis ===
 app.get("/api/profiles", (req, res) => {
   res.json(profiles);
 });
 
-// Rota de busca e filtros
+// === Rota de busca e filtros ===
 app.get("/api/search", (req, res) => {
   const { nome, area, senioridade } = req.query;
   let filtrados = profiles;
 
   if (nome) {
-    filtrados = filtrados.filter(p =>
+    filtrados = filtrados.filter((p) =>
       p.nome.toLowerCase().includes(nome.toLowerCase())
     );
   }
 
   if (area) {
-    filtrados = filtrados.filter(p =>
-      p.area.toLowerCase() === area.toLowerCase()
+    filtrados = filtrados.filter(
+      (p) => p.area.toLowerCase() === area.toLowerCase()
     );
   }
 
   if (senioridade) {
-    filtrados = filtrados.filter(p =>
-      p.senioridade.toLowerCase() === senioridade.toLowerCase()
+    filtrados = filtrados.filter(
+      (p) => p.senioridade.toLowerCase() === senioridade.toLowerCase()
     );
   }
 
   res.json(filtrados);
 });
 
-// Rota para obter perfil individual por ID
+// === Rota para obter perfil individual por ID ===
 app.get("/api/profile/:id", (req, res) => {
-  const perfil = profiles.find(p => p.id === parseInt(req.params.id));
+  const perfil = profiles.find((p) => p.id === parseInt(req.params.id));
   if (!perfil) return res.status(404).json({ erro: "Perfil não encontrado" });
   res.json(perfil);
 });
 
+// === Inicia o servidor ===
 app.listen(PORT, () => {
   console.log(`🚀 Servidor rodando em http://localhost:${PORT}`);
 });
