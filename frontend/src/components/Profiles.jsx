@@ -7,7 +7,6 @@ export default function Profiles() {
   const [selected, setSelected] = useState(null);
 
   useEffect(() => {
-    // Busca os dados do backend
     fetch("http://localhost:5000/api/profiles")
       .then((res) => res.json())
       .then((data) => {
@@ -26,15 +25,16 @@ export default function Profiles() {
           <ProfileCard
             key={profile.id}
             name={profile.nome}
-            role={profile.area}
-            avatar={profile.avatar}
-            skills={[profile.area, profile.senioridade]}
+            role={profile.cargo}                 
+            location={profile.localizacao}       
+            available={true}                     
+            avatar={profile.foto}                
+            skills={profile.habilidadesTecnicas}
             onClick={() => setSelected(profile)}
           />
         ))
       )}
 
-      {/* Modal de perfil */}
       <ProfileModal
         open={!!selected}
         onClose={() => setSelected(null)}

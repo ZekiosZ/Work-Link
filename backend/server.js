@@ -22,7 +22,7 @@ let profiles = [];
 try {
   const jsonData = fs.readFileSync(dataPath, "utf-8");
   profiles = JSON.parse(jsonData);
-  console.log(`✅ Perfis carregados com sucesso! (${profiles.length} perfis)`);
+  console.log(`✅ Perfis carregados com sucesso!`);
 } catch (error) {
   console.error("❌ Erro ao ler o arquivo profiles.json:", error.message);
 }

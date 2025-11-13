@@ -1,482 +1,5406 @@
 [
   {
     "id": 1,
-    "nome": "Lucas Andrade",
-    "area": "tecnolo",
+    "nome": "Renan Correia",
+    "foto": "https://randomuser.me/api/portraits/men/2.jpg",
+    "cargo": "Designer Gráfico",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "Belo Horizonte, MG",
+    "area": "Design",
     "senioridade": "Pleno",
-    "descricao": "Desenvolvedor com experiência em React, Node.js e integração de APIs REST.",
-    "avatar": "https://randomuser.me/api/portraits/men/1.jpg"
+    "habilidadesTecnicas": [
+      "Illustrator",
+      "Prototipagem",
+      "Adobe XD",
+      "UX Research"
+    ],
+    "softSkills": [
+      "Proatividade",
+      "Trabalho em equipe",
+      "Liderança"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 2",
+        "periodo": "2020 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2023"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português",
+      "Inglês",
+      "Espanhol"
+    ],
+    "areaInteresses": [
+      "Design",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
   },
   {
     "id": 2,
-    "nome": "Carla Menezes",
-    "area": "UI/UX Design",
-    "senioridade": "Sênior",
-    "descricao": "Designer especializada em prototipagem e experiência do usuário em produtos digitais.",
-    "avatar": "https://randomuser.me/api/portraits/women/2.jpg"
+    "nome": "Caio Barros",
+    "foto": "https://randomuser.me/api/portraits/women/3.jpg",
+    "cargo": "Recrutador Tech",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "Florianópolis, SC",
+    "area": "RH",
+    "senioridade": "Júnior",
+    "habilidadesTecnicas": [
+      "Seleção",
+      "Clima organizacional",
+      "Treinamento",
+      "Recrutamento"
+    ],
+    "softSkills": [
+      "Pensamento crítico",
+      "Proatividade",
+      "Trabalho em equipe"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 2",
+        "periodo": "2021 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2020"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português",
+      "Inglês",
+      "Espanhol"
+    ],
+    "areaInteresses": [
+      "RH",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
   },
   {
     "id": 3,
-    "nome": "Rafael Monteiro",
-    "area": "Gestão de Projetos",
-    "senioridade": "Júnior",
-    "descricao": "Profissional focado em metodologias ágeis e Scrum Master iniciante.",
-    "avatar": "https://randomuser.me/api/portraits/men/3.jpg"
+    "nome": "Gabriel Moreira",
+    "foto": "https://randomuser.me/api/portraits/men/4.jpg",
+    "cargo": "Desenvolvedor Full Stack",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "Rio de Janeiro, RJ",
+    "area": "Tecnologia",
+    "senioridade": "Sênior",
+    "habilidadesTecnicas": [
+      "Node.js",
+      "JavaScript",
+      "TypeScript",
+      "Python"
+    ],
+    "softSkills": [
+      "Pensamento crítico",
+      "Liderança",
+      "Adaptabilidade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 3",
+        "periodo": "2018 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Ciência da Computação",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2024"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português"
+    ],
+    "areaInteresses": [
+      "Tecnologia",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
   },
   {
     "id": 4,
-    "nome": "Amanda Carvalho",
-    "area": "Marketing Digital",
-    "senioridade": "Pleno",
-    "descricao": "Especialista em campanhas online, SEO e mídias sociais.",
-    "avatar": "https://randomuser.me/api/portraits/women/4.jpg"
+    "nome": "Rafael Dias",
+    "foto": "https://randomuser.me/api/portraits/women/5.jpg",
+    "cargo": "Designer Gráfico",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "Brasília, DF",
+    "area": "Design",
+    "senioridade": "Sênior",
+    "habilidadesTecnicas": [
+      "UX Research",
+      "Adobe XD",
+      "Figma",
+      "UI Design"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Proatividade",
+      "Trabalho em equipe"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 1",
+        "periodo": "2023 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2021"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português",
+      "Inglês"
+    ],
+    "areaInteresses": [
+      "Design",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
   },
   {
     "id": 5,
-    "nome": "Vinícius Pires",
-    "area": "Análise de Dados",
-    "senioridade": "Sênior",
-    "descricao": "Analista com foco em Power BI, SQL e ciência de dados aplicada a negócios.",
-    "avatar": "https://randomuser.me/api/portraits/men/5.jpg"
+    "nome": "Henrique Moreira",
+    "foto": "https://randomuser.me/api/portraits/men/6.jpg",
+    "cargo": "Desenvolvedor Front-end",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "Porto Alegre, RS",
+    "area": "Tecnologia",
+    "senioridade": "Júnior",
+    "habilidadesTecnicas": [
+      "Node.js",
+      "Python",
+      "React",
+      "TypeScript"
+    ],
+    "softSkills": [
+      "Liderança",
+      "Comunicação",
+      "Proatividade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 4",
+        "periodo": "2023 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Ciência da Computação",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2024"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português",
+      "Inglês"
+    ],
+    "areaInteresses": [
+      "Tecnologia",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
   },
   {
     "id": 6,
-    "nome": "Marina Costa",
-    "area": "Desenvolvimento Front-end",
-    "senioridade": "Júnior",
-    "descricao": "Front-end focada em interfaces responsivas e acessibilidade com React.",
-    "avatar": "https://randomuser.me/api/portraits/women/6.jpg"
+    "nome": "Thiago Rodrigues",
+    "foto": "https://randomuser.me/api/portraits/women/7.jpg",
+    "cargo": "Engenheiro de Software",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "São Paulo, SP",
+    "area": "Tecnologia",
+    "senioridade": "Sênior",
+    "habilidadesTecnicas": [
+      "Docker",
+      "SQL",
+      "Node.js",
+      "Python"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Liderança",
+      "Pensamento crítico"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 5",
+        "periodo": "2019 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Ciência da Computação",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2019"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português",
+      "Inglês",
+      "Espanhol"
+    ],
+    "areaInteresses": [
+      "Tecnologia",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
   },
   {
     "id": 7,
-    "nome": "Tiago Nogueira",
-    "area": "DevOps",
-    "senioridade": "Pleno",
-    "descricao": "Engenheiro DevOps com experiência em Docker, AWS e pipelines CI/CD.",
-    "avatar": "https://randomuser.me/api/portraits/men/7.jpg"
+    "nome": "Yuri Pereira",
+    "foto": "https://randomuser.me/api/portraits/men/8.jpg",
+    "cargo": "Analista Financeiro",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "Salvador, BA",
+    "area": "Finanças",
+    "senioridade": "Sênior",
+    "habilidadesTecnicas": [
+      "Excel",
+      "Modelagem financeira",
+      "Power BI",
+      "Análise de dados"
+    ],
+    "softSkills": [
+      "Trabalho em equipe",
+      "Adaptabilidade",
+      "Proatividade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 4",
+        "periodo": "2020 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2020"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português",
+      "Inglês",
+      "Espanhol"
+    ],
+    "areaInteresses": [
+      "Finanças",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
   },
   {
     "id": 8,
-    "nome": "Juliana Freitas",
-    "area": "Design de Produto",
-    "senioridade": "Sênior",
-    "descricao": "Designer voltada à criação de soluções centradas no usuário.",
-    "avatar": "https://randomuser.me/api/portraits/women/8.jpg"
+    "nome": "Nathan Costa",
+    "foto": "https://randomuser.me/api/portraits/women/9.jpg",
+    "cargo": "Designer UI/UX",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "Belo Horizonte, MG",
+    "area": "Design",
+    "senioridade": "Júnior",
+    "habilidadesTecnicas": [
+      "UX Research",
+      "Illustrator",
+      "Figma",
+      "Prototipagem"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Trabalho em equipe",
+      "Liderança"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 2",
+        "periodo": "2021 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2018"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português",
+      "Inglês"
+    ],
+    "areaInteresses": [
+      "Design",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
   },
   {
     "id": 9,
-    "nome": "Gabriel Moreira",
-    "area": "Análise de Dados",
+    "nome": "Thiago Ribeiro",
+    "foto": "https://randomuser.me/api/portraits/men/10.jpg",
+    "cargo": "Desenvolvedor Back-end",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "Curitiba, PR",
+    "area": "Tecnologia",
     "senioridade": "Pleno",
-    "descricao": "Analista de dados especializado em Python e estatística aplicada.",
-    "avatar": "https://randomuser.me/api/portraits/men/9.jpg"
+    "habilidadesTecnicas": [
+      "SQL",
+      "Docker",
+      "Python",
+      "Node.js"
+    ],
+    "softSkills": [
+      "Pensamento crítico",
+      "Adaptabilidade",
+      "Trabalho em equipe"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 3",
+        "periodo": "2022 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Ciência da Computação",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2018"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português"
+    ],
+    "areaInteresses": [
+      "Tecnologia",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
   },
   {
     "id": 10,
-    "nome": "Fernanda Almeida",
-    "area": "Marketing Digital",
+    "nome": "Igor Costa",
+    "foto": "https://randomuser.me/api/portraits/women/11.jpg",
+    "cargo": "Desenvolvedor Full Stack",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "Brasília, DF",
+    "area": "Tecnologia",
     "senioridade": "Sênior",
-    "descricao": "Profissional de marketing com experiência em branding e copywriting.",
-    "avatar": "https://randomuser.me/api/portraits/women/10.jpg"
+    "habilidadesTecnicas": [
+      "Node.js",
+      "React",
+      "TypeScript",
+      "JavaScript"
+    ],
+    "softSkills": [
+      "Proatividade",
+      "Pensamento crítico",
+      "Adaptabilidade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 4",
+        "periodo": "2018 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Ciência da Computação",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2023"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português",
+      "Inglês"
+    ],
+    "areaInteresses": [
+      "Tecnologia",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
   },
   {
     "id": 11,
-    "nome": "Eduardo Lima",
-    "area": "Desenvolvimento Back-end",
-    "senioridade": "Pleno",
-    "descricao": "Back-end developer com foco em APIs escaláveis e banco de dados NoSQL.",
-    "avatar": "https://randomuser.me/api/portraits/men/11.jpg"
+    "nome": "Vitor Melo",
+    "foto": "https://randomuser.me/api/portraits/men/12.jpg",
+    "cargo": "Product Owner",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "Porto Alegre, RS",
+    "area": "Produto",
+    "senioridade": "Sênior",
+    "habilidadesTecnicas": [
+      "Roadmap",
+      "Kanban",
+      "Product Discovery",
+      "Scrum"
+    ],
+    "softSkills": [
+      "Trabalho em equipe",
+      "Liderança",
+      "Adaptabilidade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 3",
+        "periodo": "2018 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2024"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português",
+      "Inglês",
+      "Espanhol"
+    ],
+    "areaInteresses": [
+      "Produto",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
   },
   {
     "id": 12,
-    "nome": "Larissa Rocha",
-    "area": "UI/UX Design",
-    "senioridade": "Júnior",
-    "descricao": "Designer iniciante focada em wireframes e design de aplicativos mobile.",
-    "avatar": "https://randomuser.me/api/portraits/women/12.jpg"
+    "nome": "Nathan Barros",
+    "foto": "https://randomuser.me/api/portraits/women/13.jpg",
+    "cargo": "Analista Financeiro",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "Rio de Janeiro, RJ",
+    "area": "Finanças",
+    "senioridade": "Pleno",
+    "habilidadesTecnicas": [
+      "Análise de dados",
+      "Excel",
+      "Modelagem financeira",
+      "Power BI"
+    ],
+    "softSkills": [
+      "Proatividade",
+      "Liderança",
+      "Adaptabilidade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 5",
+        "periodo": "2019 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2019"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português"
+    ],
+    "areaInteresses": [
+      "Finanças",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
   },
   {
     "id": 13,
-    "nome": "Pedro Oliveira",
-    "area": "Desenvolvimento Full Stack",
-    "senioridade": "Sênior",
-    "descricao": "Engenheiro de software com experiência em sistemas complexos e escaláveis.",
-    "avatar": "https://randomuser.me/api/portraits/men/13.jpg"
+    "nome": "Carlos Nascimento",
+    "foto": "https://randomuser.me/api/portraits/men/14.jpg",
+    "cargo": "Designer UI/UX",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "Belo Horizonte, MG",
+    "area": "Design",
+    "senioridade": "Pleno",
+    "habilidadesTecnicas": [
+      "Adobe XD",
+      "Illustrator",
+      "Prototipagem",
+      "UI Design"
+    ],
+    "softSkills": [
+      "Liderança",
+      "Comunicação",
+      "Proatividade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 5",
+        "periodo": "2019 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2019"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português",
+      "Inglês"
+    ],
+    "areaInteresses": [
+      "Design",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
   },
   {
     "id": 14,
-    "nome": "Beatriz Correia",
-    "area": "Design Gráfico",
-    "senioridade": "Pleno",
-    "descricao": "Criadora visual com experiência em identidade de marca e motion design.",
-    "avatar": "https://randomuser.me/api/portraits/women/14.jpg"
+    "nome": "Gabriel Gomes",
+    "foto": "https://randomuser.me/api/portraits/women/15.jpg",
+    "cargo": "Analista Financeiro",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "São Paulo, SP",
+    "area": "Finanças",
+    "senioridade": "Júnior",
+    "habilidadesTecnicas": [
+      "Análise de dados",
+      "Excel",
+      "Modelagem financeira",
+      "Power BI"
+    ],
+    "softSkills": [
+      "Liderança",
+      "Comunicação",
+      "Trabalho em equipe"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 3",
+        "periodo": "2022 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2022"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português",
+      "Inglês"
+    ],
+    "areaInteresses": [
+      "Finanças",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
   },
   {
     "id": 15,
-    "nome": "André Ferreira",
-    "area": "Análise de Dados",
-    "senioridade": "Júnior",
-    "descricao": "Analista iniciante com foco em dashboards e visualização de dados.",
-    "avatar": "https://randomuser.me/api/portraits/men/15.jpg"
+    "nome": "Matheus Rocha",
+    "foto": "https://randomuser.me/api/portraits/men/16.jpg",
+    "cargo": "Recrutador Tech",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "Brasília, DF",
+    "area": "RH",
+    "senioridade": "Sênior",
+    "habilidadesTecnicas": [
+      "Seleção",
+      "Recrutamento",
+      "Clima organizacional",
+      "Treinamento"
+    ],
+    "softSkills": [
+      "Liderança",
+      "Comunicação",
+      "Pensamento crítico"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 3",
+        "periodo": "2022 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2024"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português"
+    ],
+    "areaInteresses": [
+      "RH",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
   },
   {
     "id": 16,
-    "nome": "Camila Duarte",
-    "area": "Marketing Digital",
-    "senioridade": "Pleno",
-    "descricao": "Estrategista de marketing com foco em tráfego pago e automação.",
-    "avatar": "https://randomuser.me/api/portraits/women/16.jpg"
+    "nome": "Leonardo Cardoso",
+    "foto": "https://randomuser.me/api/portraits/women/17.jpg",
+    "cargo": "Engenheiro de Software",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "São Paulo, SP",
+    "area": "Tecnologia",
+    "senioridade": "Sênior",
+    "habilidadesTecnicas": [
+      "Node.js",
+      "React",
+      "SQL",
+      "TypeScript"
+    ],
+    "softSkills": [
+      "Liderança",
+      "Adaptabilidade",
+      "Pensamento crítico"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 4",
+        "periodo": "2018 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Ciência da Computação",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2018"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português",
+      "Inglês",
+      "Espanhol"
+    ],
+    "areaInteresses": [
+      "Tecnologia",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
   },
   {
     "id": 17,
-    "nome": "Henrique Cardoso",
-    "area": "Desenvolvimento Mobile",
-    "senioridade": "Sênior",
-    "descricao": "Desenvolvedor mobile com experiência em React Native e Flutter.",
-    "avatar": "https://randomuser.me/api/portraits/men/17.jpg"
+    "nome": "Jorge Cavalcante",
+    "foto": "https://randomuser.me/api/portraits/men/18.jpg",
+    "cargo": "Product Owner",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "Recife, PE",
+    "area": "Produto",
+    "senioridade": "Júnior",
+    "habilidadesTecnicas": [
+      "Product Discovery",
+      "Scrum",
+      "Backlog",
+      "Kanban"
+    ],
+    "softSkills": [
+      "Proatividade",
+      "Liderança",
+      "Comunicação"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 2",
+        "periodo": "2021 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2019"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português",
+      "Inglês",
+      "Espanhol"
+    ],
+    "areaInteresses": [
+      "Produto",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
   },
   {
     "id": 18,
-    "nome": "Patrícia Reis",
-    "area": "UI/UX Design",
+    "nome": "André Santana",
+    "foto": "https://randomuser.me/api/portraits/women/19.jpg",
+    "cargo": "Product Designer",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "Brasília, DF",
+    "area": "Design",
     "senioridade": "Pleno",
-    "descricao": "Designer focada em pesquisas de usabilidade e experiência visual.",
-    "avatar": "https://randomuser.me/api/portraits/women/18.jpg"
+    "habilidadesTecnicas": [
+      "Adobe XD",
+      "Figma",
+      "UI Design",
+      "Illustrator"
+    ],
+    "softSkills": [
+      "Pensamento crítico",
+      "Trabalho em equipe",
+      "Adaptabilidade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 3",
+        "periodo": "2023 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2021"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português"
+    ],
+    "areaInteresses": [
+      "Design",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
   },
   {
     "id": 19,
-    "nome": "Marcelo Azevedo",
-    "area": "DevOps",
-    "senioridade": "Júnior",
-    "descricao": "Profissional em início de carreira com foco em automação de deploys.",
-    "avatar": "https://randomuser.me/api/portraits/men/19.jpg"
+    "nome": "Daniel Pereira",
+    "foto": "https://randomuser.me/api/portraits/men/20.jpg",
+    "cargo": "Product Manager",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "Porto Alegre, RS",
+    "area": "Produto",
+    "senioridade": "Pleno",
+    "habilidadesTecnicas": [
+      "Backlog",
+      "Scrum",
+      "Kanban",
+      "Product Discovery"
+    ],
+    "softSkills": [
+      "Liderança",
+      "Comunicação",
+      "Proatividade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 4",
+        "periodo": "2019 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2022"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português"
+    ],
+    "areaInteresses": [
+      "Produto",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
   },
   {
     "id": 20,
-    "nome": "Renata Barros",
-    "area": "Design de Produto",
+    "nome": "Rodrigo Correia",
+    "foto": "https://randomuser.me/api/portraits/women/21.jpg",
+    "cargo": "Designer Gráfico",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "Brasília, DF",
+    "area": "Design",
     "senioridade": "Pleno",
-    "descricao": "Designer centrada no usuário com foco em soluções intuitivas.",
-    "avatar": "https://randomuser.me/api/portraits/women/20.jpg"
+    "habilidadesTecnicas": [
+      "Illustrator",
+      "Figma",
+      "UX Research",
+      "UI Design"
+    ],
+    "softSkills": [
+      "Liderança",
+      "Trabalho em equipe",
+      "Adaptabilidade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 4",
+        "periodo": "2024 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2019"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português",
+      "Inglês",
+      "Espanhol"
+    ],
+    "areaInteresses": [
+      "Design",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
   },
   {
     "id": 21,
-    "nome": "Rodrigo Sampaio",
-    "area": "Análise de Dados",
-    "senioridade": "Sênior",
-    "descricao": "Analista experiente com background em machine learning e estatística.",
-    "avatar": "https://randomuser.me/api/portraits/men/21.jpg"
+    "nome": "Gabriel Teixeira",
+    "foto": "https://randomuser.me/api/portraits/men/22.jpg",
+    "cargo": "Associate Product Manager",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "Brasília, DF",
+    "area": "Produto",
+    "senioridade": "Júnior",
+    "habilidadesTecnicas": [
+      "Backlog",
+      "Kanban",
+      "Product Discovery",
+      "Scrum"
+    ],
+    "softSkills": [
+      "Trabalho em equipe",
+      "Liderança",
+      "Adaptabilidade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 3",
+        "periodo": "2018 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2018"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português",
+      "Inglês",
+      "Espanhol"
+    ],
+    "areaInteresses": [
+      "Produto",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
   },
   {
     "id": 22,
-    "nome": "Lívia Furtado",
-    "area": "Marketing Digital",
-    "senioridade": "Júnior",
-    "descricao": "Profissional criativa especializada em redes sociais e storytelling.",
-    "avatar": "https://randomuser.me/api/portraits/women/22.jpg"
+    "nome": "Yuri Carvalho",
+    "foto": "https://randomuser.me/api/portraits/women/23.jpg",
+    "cargo": "Desenvolvedor Front-end",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "Brasília, DF",
+    "area": "Tecnologia",
+    "senioridade": "Pleno",
+    "habilidadesTecnicas": [
+      "Python",
+      "JavaScript",
+      "TypeScript",
+      "React"
+    ],
+    "softSkills": [
+      "Liderança",
+      "Pensamento crítico",
+      "Adaptabilidade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 3",
+        "periodo": "2022 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Ciência da Computação",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2019"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português"
+    ],
+    "areaInteresses": [
+      "Tecnologia",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
   },
   {
     "id": 23,
-    "nome": "Fábio Nascimento",
-    "area": "Desenvolvimento Full Stack",
-    "senioridade": "Pleno",
-    "descricao": "Desenvolvedor com sólida experiência em React, Node e SQL.",
-    "avatar": "https://randomuser.me/api/portraits/men/23.jpg"
+    "nome": "Alex Oliveira",
+    "foto": "https://randomuser.me/api/portraits/men/24.jpg",
+    "cargo": "Analista de Recursos Humanos",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "Porto Alegre, RS",
+    "area": "RH",
+    "senioridade": "Sênior",
+    "habilidadesTecnicas": [
+      "Treinamento",
+      "Seleção",
+      "Recrutamento",
+      "Clima organizacional"
+    ],
+    "softSkills": [
+      "Proatividade",
+      "Comunicação",
+      "Liderança"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 1",
+        "periodo": "2021 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2019"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português",
+      "Inglês",
+      "Espanhol"
+    ],
+    "areaInteresses": [
+      "RH",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
   },
   {
     "id": 24,
-    "nome": "Tatiane Ribeiro",
-    "area": "Design Gráfico",
-    "senioridade": "Sênior",
-    "descricao": "Designer gráfica focada em branding e comunicação visual.",
-    "avatar": "https://randomuser.me/api/portraits/women/24.jpg"
+    "nome": "Caio Santana",
+    "foto": "https://randomuser.me/api/portraits/women/25.jpg",
+    "cargo": "Analista de Recursos Humanos",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "Brasília, DF",
+    "area": "RH",
+    "senioridade": "Júnior",
+    "habilidadesTecnicas": [
+      "Recrutamento",
+      "Clima organizacional",
+      "Seleção",
+      "Treinamento"
+    ],
+    "softSkills": [
+      "Adaptabilidade",
+      "Proatividade",
+      "Pensamento crítico"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 3",
+        "periodo": "2024 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2022"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português"
+    ],
+    "areaInteresses": [
+      "RH",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
   },
   {
     "id": 25,
-    "nome": "Ricardo Almeida",
-    "area": "Desenvolvimento Back-end",
+    "nome": "Nathan Cardoso",
+    "foto": "https://randomuser.me/api/portraits/men/26.jpg",
+    "cargo": "Social Media",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "Recife, PE",
+    "area": "Marketing",
     "senioridade": "Júnior",
-    "descricao": "Back-end focado em Node.js e estrutura de APIs RESTful.",
-    "avatar": "https://randomuser.me/api/portraits/men/25.jpg"
+    "habilidadesTecnicas": [
+      "SEO",
+      "Analytics",
+      "Copywriting",
+      "Google Ads"
+    ],
+    "softSkills": [
+      "Pensamento crítico",
+      "Comunicação",
+      "Trabalho em equipe"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 1",
+        "periodo": "2024 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2019"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português",
+      "Inglês",
+      "Espanhol"
+    ],
+    "areaInteresses": [
+      "Marketing",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
   },
   {
     "id": 26,
-    "nome": "Isabela Santos",
-    "area": "UI/UX Design",
-    "senioridade": "Sênior",
-    "descricao": "Designer com foco em design inclusivo e acessibilidade digital.",
-    "avatar": "https://randomuser.me/api/portraits/women/26.jpg"
+    "nome": "Eduardo Silva",
+    "foto": "https://randomuser.me/api/portraits/women/27.jpg",
+    "cargo": "Recrutador Tech",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "Recife, PE",
+    "area": "RH",
+    "senioridade": "Júnior",
+    "habilidadesTecnicas": [
+      "Treinamento",
+      "Recrutamento",
+      "Seleção",
+      "Clima organizacional"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Adaptabilidade",
+      "Liderança"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 3",
+        "periodo": "2022 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2023"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português",
+      "Inglês"
+    ],
+    "areaInteresses": [
+      "RH",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
   },
   {
     "id": 27,
-    "nome": "Leonardo Martins",
-    "area": "DevOps",
-    "senioridade": "Pleno",
-    "descricao": "Engenheiro DevOps especializado em pipelines GitHub Actions e AWS.",
-    "avatar": "https://randomuser.me/api/portraits/men/27.jpg"
+    "nome": "Marcos Lima",
+    "foto": "https://randomuser.me/api/portraits/men/28.jpg",
+    "cargo": "Business Partner",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "Recife, PE",
+    "area": "RH",
+    "senioridade": "Júnior",
+    "habilidadesTecnicas": [
+      "Treinamento",
+      "Recrutamento",
+      "Seleção",
+      "Clima organizacional"
+    ],
+    "softSkills": [
+      "Trabalho em equipe",
+      "Pensamento crítico",
+      "Adaptabilidade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 1",
+        "periodo": "2022 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2024"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português",
+      "Inglês"
+    ],
+    "areaInteresses": [
+      "RH",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
   },
   {
     "id": 28,
-    "nome": "Catarina Silva",
-    "area": "Design de Produto",
-    "senioridade": "Pleno",
-    "descricao": "Designer de produto apaixonada por testes A/B e feedbacks reais.",
-    "avatar": "https://randomuser.me/api/portraits/women/28.jpg"
+    "nome": "Rodrigo Borges",
+    "foto": "https://randomuser.me/api/portraits/women/29.jpg",
+    "cargo": "Business Partner",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "Fortaleza, CE",
+    "area": "RH",
+    "senioridade": "Júnior",
+    "habilidadesTecnicas": [
+      "Recrutamento",
+      "Treinamento",
+      "Seleção",
+      "Clima organizacional"
+    ],
+    "softSkills": [
+      "Adaptabilidade",
+      "Liderança",
+      "Proatividade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 3",
+        "periodo": "2020 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2023"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português",
+      "Inglês",
+      "Espanhol"
+    ],
+    "areaInteresses": [
+      "RH",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
   },
   {
     "id": 29,
-    "nome": "Gustavo Pereira",
-    "area": "Análise de Dados",
-    "senioridade": "Júnior",
-    "descricao": "Analista focado em modelagem de dados e relatórios interativos.",
-    "avatar": "https://randomuser.me/api/portraits/men/29.jpg"
+    "nome": "Daniel Barros",
+    "foto": "https://randomuser.me/api/portraits/men/30.jpg",
+    "cargo": "Desenvolvedor Front-end",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "Fortaleza, CE",
+    "area": "Tecnologia",
+    "senioridade": "Sênior",
+    "habilidadesTecnicas": [
+      "Python",
+      "Node.js",
+      "TypeScript",
+      "Docker"
+    ],
+    "softSkills": [
+      "Liderança",
+      "Proatividade",
+      "Pensamento crítico"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 2",
+        "periodo": "2024 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Ciência da Computação",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2024"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português",
+      "Inglês"
+    ],
+    "areaInteresses": [
+      "Tecnologia",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
   },
   {
     "id": 30,
-    "nome": "Natália Teixeira",
-    "area": "Marketing Digital",
-    "senioridade": "Pleno",
-    "descricao": "Estrategista de conteúdo e especialista em marketing de influência.",
-    "avatar": "https://randomuser.me/api/portraits/women/30.jpg"
+    "nome": "Igor Melo",
+    "foto": "https://randomuser.me/api/portraits/women/31.jpg",
+    "cargo": "Designer Gráfico",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "São Paulo, SP",
+    "area": "Design",
+    "senioridade": "Júnior",
+    "habilidadesTecnicas": [
+      "UX Research",
+      "UI Design",
+      "Prototipagem",
+      "Figma"
+    ],
+    "softSkills": [
+      "Liderança",
+      "Adaptabilidade",
+      "Trabalho em equipe"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 2",
+        "periodo": "2024 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2021"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português",
+      "Inglês",
+      "Espanhol"
+    ],
+    "areaInteresses": [
+      "Design",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
   },
   {
     "id": 31,
-    "nome": "Caio Barbosa",
-    "area": "Desenvolvimento Front-end",
-    "senioridade": "Sênior",
-    "descricao": "Front-end engineer com expertise em Next.js e animações com Framer Motion.",
-    "avatar": "https://randomuser.me/api/portraits/men/31.jpg"
+    "nome": "Eduardo Freitas",
+    "foto": "https://randomuser.me/api/portraits/men/32.jpg",
+    "cargo": "Product Manager",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "Belo Horizonte, MG",
+    "area": "Produto",
+    "senioridade": "Júnior",
+    "habilidadesTecnicas": [
+      "Kanban",
+      "Scrum",
+      "Backlog",
+      "Product Discovery"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Proatividade",
+      "Liderança"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 1",
+        "periodo": "2024 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2024"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português"
+    ],
+    "areaInteresses": [
+      "Produto",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
   },
   {
     "id": 32,
-    "nome": "Helena Brito",
-    "area": "Design Gráfico",
-    "senioridade": "Pleno",
-    "descricao": "Profissional criativa com foco em identidade visual e packaging.",
-    "avatar": "https://randomuser.me/api/portraits/women/32.jpg"
+    "nome": "Leonardo Dias",
+    "foto": "https://randomuser.me/api/portraits/women/33.jpg",
+    "cargo": "Controller Júnior",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "Rio de Janeiro, RJ",
+    "area": "Finanças",
+    "senioridade": "Sênior",
+    "habilidadesTecnicas": [
+      "Análise de dados",
+      "Modelagem financeira",
+      "Power BI",
+      "Excel"
+    ],
+    "softSkills": [
+      "Trabalho em equipe",
+      "Pensamento crítico",
+      "Liderança"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 1",
+        "periodo": "2023 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2024"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português",
+      "Inglês"
+    ],
+    "areaInteresses": [
+      "Finanças",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
   },
   {
     "id": 33,
-    "nome": "Bruno Nunes",
-    "area": "Desenvolvimento Back-end",
-    "senioridade": "Sênior",
-    "descricao": "Back-end developer com experiência em microserviços e escalabilidade.",
-    "avatar": "https://randomuser.me/api/portraits/men/33.jpg"
+    "nome": "Gabriel Barros",
+    "foto": "https://randomuser.me/api/portraits/men/34.jpg",
+    "cargo": "Product Designer",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "Belo Horizonte, MG",
+    "area": "Design",
+    "senioridade": "Pleno",
+    "habilidadesTecnicas": [
+      "Figma",
+      "Illustrator",
+      "UX Research",
+      "Adobe XD"
+    ],
+    "softSkills": [
+      "Proatividade",
+      "Adaptabilidade",
+      "Pensamento crítico"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 3",
+        "periodo": "2022 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2024"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português"
+    ],
+    "areaInteresses": [
+      "Design",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
   },
   {
     "id": 34,
-    "nome": "Luiza Pimenta",
-    "area": "UI/UX Design",
-    "senioridade": "Júnior",
-    "descricao": "Designer júnior com foco em design system e prototipagem rápida.",
-    "avatar": "https://randomuser.me/api/portraits/women/34.jpg"
+    "nome": "Felipe Pereira",
+    "foto": "https://randomuser.me/api/portraits/women/35.jpg",
+    "cargo": "Desenvolvedor Back-end",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "Belo Horizonte, MG",
+    "area": "Tecnologia",
+    "senioridade": "Sênior",
+    "habilidadesTecnicas": [
+      "Python",
+      "React",
+      "Node.js",
+      "SQL"
+    ],
+    "softSkills": [
+      "Proatividade",
+      "Liderança",
+      "Trabalho em equipe"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 3",
+        "periodo": "2018 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Ciência da Computação",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2018"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português",
+      "Inglês",
+      "Espanhol"
+    ],
+    "areaInteresses": [
+      "Tecnologia",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
   },
   {
     "id": 35,
-    "nome": "Felipe Souza",
-    "area": "Desenvolvimento Full Stack",
+    "nome": "Caio Barros",
+    "foto": "https://randomuser.me/api/portraits/men/36.jpg",
+    "cargo": "Social Media",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "Salvador, BA",
+    "area": "Marketing",
     "senioridade": "Pleno",
-    "descricao": "Desenvolvedor com experiência em integração de APIs e banco de dados MongoDB.",
-    "avatar": "https://randomuser.me/api/portraits/men/35.jpg"
+    "habilidadesTecnicas": [
+      "Meta Ads",
+      "Copywriting",
+      "Analytics",
+      "SEO"
+    ],
+    "softSkills": [
+      "Liderança",
+      "Trabalho em equipe",
+      "Adaptabilidade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 5",
+        "periodo": "2019 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2020"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português",
+      "Inglês"
+    ],
+    "areaInteresses": [
+      "Marketing",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
   },
   {
     "id": 36,
-    "nome": "Carolina Moreira",
-    "area": "Design de Produto",
-    "senioridade": "Sênior",
-    "descricao": "Designer com foco em design estratégico e liderança de times criativos.",
-    "avatar": "https://randomuser.me/api/portraits/women/36.jpg"
+    "nome": "Yuri Moreira",
+    "foto": "https://randomuser.me/api/portraits/women/37.jpg",
+    "cargo": "Analista de Marketing Digital",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "Curitiba, PR",
+    "area": "Marketing",
+    "senioridade": "Júnior",
+    "habilidadesTecnicas": [
+      "Copywriting",
+      "SEO",
+      "Meta Ads",
+      "Google Ads"
+    ],
+    "softSkills": [
+      "Pensamento crítico",
+      "Proatividade",
+      "Adaptabilidade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 2",
+        "periodo": "2019 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2018"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português",
+      "Inglês"
+    ],
+    "areaInteresses": [
+      "Marketing",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
   },
   {
     "id": 37,
-    "nome": "João Pedro",
-    "area": "Análise de Dados",
-    "senioridade": "Pleno",
-    "descricao": "Analista com experiência em modelagem preditiva e SQL avançado.",
-    "avatar": "https://randomuser.me/api/portraits/men/37.jpg"
+    "nome": "Bruno Barros",
+    "foto": "https://randomuser.me/api/portraits/men/38.jpg",
+    "cargo": "Product Owner",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "Florianópolis, SC",
+    "area": "Produto",
+    "senioridade": "Sênior",
+    "habilidadesTecnicas": [
+      "Backlog",
+      "Kanban",
+      "Product Discovery",
+      "Scrum"
+    ],
+    "softSkills": [
+      "Pensamento crítico",
+      "Proatividade",
+      "Trabalho em equipe"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 2",
+        "periodo": "2019 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2023"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português"
+    ],
+    "areaInteresses": [
+      "Produto",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
   },
   {
     "id": 38,
-    "nome": "Gabriela Lima",
-    "area": "Marketing Digital",
+    "nome": "Daniel Moura",
+    "foto": "https://randomuser.me/api/portraits/women/39.jpg",
+    "cargo": "Analista de Investimentos",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "São Paulo, SP",
+    "area": "Finanças",
     "senioridade": "Júnior",
-    "descricao": "Especialista em tráfego orgânico e SEO on-page.",
-    "avatar": "https://randomuser.me/api/portraits/women/38.jpg"
+    "habilidadesTecnicas": [
+      "Análise de dados",
+      "Excel",
+      "Power BI",
+      "Modelagem financeira"
+    ],
+    "softSkills": [
+      "Adaptabilidade",
+      "Pensamento crítico",
+      "Liderança"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 4",
+        "periodo": "2024 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2018"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português",
+      "Inglês"
+    ],
+    "areaInteresses": [
+      "Finanças",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
   },
   {
     "id": 39,
-    "nome": "Diego Rocha",
-    "area": "Desenvolvimento Mobile",
+    "nome": "Thiago Almeida",
+    "foto": "https://randomuser.me/api/portraits/men/40.jpg",
+    "cargo": "Designer Gráfico",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "Curitiba, PR",
+    "area": "Design",
     "senioridade": "Pleno",
-    "descricao": "Desenvolvedor mobile com experiência em Kotlin e integração com APIs.",
-    "avatar": "https://randomuser.me/api/portraits/men/39.jpg"
+    "habilidadesTecnicas": [
+      "Figma",
+      "Illustrator",
+      "UI Design",
+      "Adobe XD"
+    ],
+    "softSkills": [
+      "Adaptabilidade",
+      "Proatividade",
+      "Comunicação"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 5",
+        "periodo": "2021 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2019"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português",
+      "Inglês"
+    ],
+    "areaInteresses": [
+      "Design",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
   },
   {
     "id": 40,
-    "nome": "Letícia Campos",
-    "area": "Design Gráfico",
-    "senioridade": "Sênior",
-    "descricao": "Designer experiente com foco em tipografia e composição visual.",
-    "avatar": "https://randomuser.me/api/portraits/women/40.jpg"
+    "nome": "Daniel Araujo",
+    "foto": "https://randomuser.me/api/portraits/women/41.jpg",
+    "cargo": "Business Partner",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "Recife, PE",
+    "area": "RH",
+    "senioridade": "Pleno",
+    "habilidadesTecnicas": [
+      "Clima organizacional",
+      "Recrutamento",
+      "Treinamento",
+      "Seleção"
+    ],
+    "softSkills": [
+      "Pensamento crítico",
+      "Trabalho em equipe",
+      "Proatividade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 2",
+        "periodo": "2020 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2023"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português"
+    ],
+    "areaInteresses": [
+      "RH",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
   },
   {
     "id": 41,
-    "nome": "Murilo Fonseca",
-    "area": "Desenvolvimento Back-end",
-    "senioridade": "Pleno",
-    "descricao": "Back-end com domínio em Express e PostgreSQL.",
-    "avatar": "https://randomuser.me/api/portraits/men/41.jpg"
+    "nome": "Marcos Cavalcante",
+    "foto": "https://randomuser.me/api/portraits/men/42.jpg",
+    "cargo": "Analista de Recursos Humanos",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "Fortaleza, CE",
+    "area": "RH",
+    "senioridade": "Júnior",
+    "habilidadesTecnicas": [
+      "Treinamento",
+      "Clima organizacional",
+      "Seleção",
+      "Recrutamento"
+    ],
+    "softSkills": [
+      "Liderança",
+      "Adaptabilidade",
+      "Trabalho em equipe"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 4",
+        "periodo": "2023 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2018"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português",
+      "Inglês",
+      "Espanhol"
+    ],
+    "areaInteresses": [
+      "RH",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
   },
   {
     "id": 42,
-    "nome": "Débora Tavares",
-    "area": "UI/UX Design",
+    "nome": "André Silva",
+    "foto": "https://randomuser.me/api/portraits/women/43.jpg",
+    "cargo": "Analista Financeiro",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "Salvador, BA",
+    "area": "Finanças",
     "senioridade": "Sênior",
-    "descricao": "Especialista em arquitetura da informação e experiência de usuário.",
-    "avatar": "https://randomuser.me/api/portraits/women/42.jpg"
+    "habilidadesTecnicas": [
+      "Excel",
+      "Modelagem financeira",
+      "Power BI",
+      "Análise de dados"
+    ],
+    "softSkills": [
+      "Liderança",
+      "Pensamento crítico",
+      "Comunicação"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 4",
+        "periodo": "2024 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2022"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português",
+      "Inglês",
+      "Espanhol"
+    ],
+    "areaInteresses": [
+      "Finanças",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
   },
   {
     "id": 43,
-    "nome": "Caue Mello",
-    "area": "Desenvolvimento Full Stack",
+    "nome": "Renan Pereira",
+    "foto": "https://randomuser.me/api/portraits/men/44.jpg",
+    "cargo": "Social Media",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "Salvador, BA",
+    "area": "Marketing",
     "senioridade": "Júnior",
-    "descricao": "Desenvolvedor em formação com foco em JavaScript e banco de dados.",
-    "avatar": "https://randomuser.me/api/portraits/men/43.jpg"
+    "habilidadesTecnicas": [
+      "SEO",
+      "Analytics",
+      "Meta Ads",
+      "Copywriting"
+    ],
+    "softSkills": [
+      "Trabalho em equipe",
+      "Pensamento crítico",
+      "Proatividade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 2",
+        "periodo": "2024 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2022"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português"
+    ],
+    "areaInteresses": [
+      "Marketing",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
   },
   {
     "id": 44,
-    "nome": "Yasmin Soares",
-    "area": "Design de Produto",
+    "nome": "Paulo Moura",
+    "foto": "https://randomuser.me/api/portraits/women/45.jpg",
+    "cargo": "Designer UI/UX",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "Brasília, DF",
+    "area": "Design",
     "senioridade": "Pleno",
-    "descricao": "Designer voltada a criar soluções de alto impacto e usabilidade.",
-    "avatar": "https://randomuser.me/api/portraits/women/44.jpg"
+    "habilidadesTecnicas": [
+      "Illustrator",
+      "Prototipagem",
+      "Figma",
+      "UX Research"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Liderança",
+      "Pensamento crítico"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 4",
+        "periodo": "2022 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2018"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português",
+      "Inglês",
+      "Espanhol"
+    ],
+    "areaInteresses": [
+      "Design",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
   },
   {
     "id": 45,
-    "nome": "Anderson Moraes",
-    "area": "Análise de Dados",
-    "senioridade": "Sênior",
-    "descricao": "Cientista de dados com foco em modelos preditivos e IA aplicada.",
-    "avatar": "https://randomuser.me/api/portraits/men/45.jpg"
+    "nome": "Diego Ribeiro",
+    "foto": "https://randomuser.me/api/portraits/men/46.jpg",
+    "cargo": "Analista de Recursos Humanos",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "Porto Alegre, RS",
+    "area": "RH",
+    "senioridade": "Pleno",
+    "habilidadesTecnicas": [
+      "Seleção",
+      "Clima organizacional",
+      "Recrutamento",
+      "Treinamento"
+    ],
+    "softSkills": [
+      "Pensamento crítico",
+      "Trabalho em equipe",
+      "Liderança"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 2",
+        "periodo": "2023 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2020"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português",
+      "Inglês"
+    ],
+    "areaInteresses": [
+      "RH",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
   },
   {
     "id": 46,
-    "nome": "Bianca Freire",
-    "area": "Marketing Digital",
+    "nome": "André Santana",
+    "foto": "https://randomuser.me/api/portraits/women/47.jpg",
+    "cargo": "Designer Gráfico",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "Belo Horizonte, MG",
+    "area": "Design",
     "senioridade": "Pleno",
-    "descricao": "Profissional criativa com foco em campanhas e análise de métricas.",
-    "avatar": "https://randomuser.me/api/portraits/women/46.jpg"
+    "habilidadesTecnicas": [
+      "Figma",
+      "UI Design",
+      "Adobe XD",
+      "Illustrator"
+    ],
+    "softSkills": [
+      "Trabalho em equipe",
+      "Adaptabilidade",
+      "Pensamento crítico"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 5",
+        "periodo": "2020 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2024"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português",
+      "Inglês",
+      "Espanhol"
+    ],
+    "areaInteresses": [
+      "Design",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
   },
   {
     "id": 47,
-    "nome": "Rogério Prado",
-    "area": "Desenvolvimento Back-end",
-    "senioridade": "Sênior",
-    "descricao": "Desenvolvedor com experiência em arquiteturas escaláveis e segurança.",
-    "avatar": "https://randomuser.me/api/portraits/men/47.jpg"
+    "nome": "Vinicius Almeida",
+    "foto": "https://randomuser.me/api/portraits/men/48.jpg",
+    "cargo": "Designer UI/UX",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "Curitiba, PR",
+    "area": "Design",
+    "senioridade": "Pleno",
+    "habilidadesTecnicas": [
+      "Prototipagem",
+      "Figma",
+      "UX Research",
+      "UI Design"
+    ],
+    "softSkills": [
+      "Adaptabilidade",
+      "Trabalho em equipe",
+      "Pensamento crítico"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 1",
+        "periodo": "2023 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2019"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português"
+    ],
+    "areaInteresses": [
+      "Design",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
   },
   {
     "id": 48,
-    "nome": "Sofia Martins",
-    "area": "UI/UX Design",
-    "senioridade": "Pleno",
-    "descricao": "Designer com foco em microinterações e consistência visual.",
-    "avatar": "https://randomuser.me/api/portraits/women/48.jpg"
+    "nome": "Carlos Almeida",
+    "foto": "https://randomuser.me/api/portraits/women/49.jpg",
+    "cargo": "Analista Financeiro",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "São Paulo, SP",
+    "area": "Finanças",
+    "senioridade": "Sênior",
+    "habilidadesTecnicas": [
+      "Análise de dados",
+      "Excel",
+      "Modelagem financeira",
+      "Power BI"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Pensamento crítico",
+      "Proatividade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 5",
+        "periodo": "2024 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2019"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português",
+      "Inglês",
+      "Espanhol"
+    ],
+    "areaInteresses": [
+      "Finanças",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
   },
   {
     "id": 49,
-    "nome": "Matheus Lopes",
-    "area": "Desenvolvimento Full Stack",
+    "nome": "Alexandre Pereira",
+    "foto": "https://randomuser.me/api/portraits/men/50.jpg",
+    "cargo": "Social Media",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "Florianópolis, SC",
+    "area": "Marketing",
     "senioridade": "Sênior",
-    "descricao": "Engenheiro full stack com foco em performance e escalabilidade.",
-    "avatar": "https://randomuser.me/api/portraits/men/49.jpg"
+    "habilidadesTecnicas": [
+      "SEO",
+      "Copywriting",
+      "Meta Ads",
+      "Analytics"
+    ],
+    "softSkills": [
+      "Proatividade",
+      "Trabalho em equipe",
+      "Comunicação"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 5",
+        "periodo": "2019 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2019"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português",
+      "Inglês",
+      "Espanhol"
+    ],
+    "areaInteresses": [
+      "Marketing",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
   },
   {
     "id": 50,
-    "nome": "Daniela Pacheco",
-    "area": "Design de Produto",
-    "senioridade": "Sênior",
-    "descricao": "Designer de produto com foco em UX writing e acessibilidade.",
-    "avatar": "https://randomuser.me/api/portraits/women/50.jpg"
+    "nome": "Henrique Correia",
+    "foto": "https://randomuser.me/api/portraits/women/51.jpg",
+    "cargo": "Designer UI/UX",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "Brasília, DF",
+    "area": "Design",
+    "senioridade": "Pleno",
+    "habilidadesTecnicas": [
+      "Prototipagem",
+      "Illustrator",
+      "UI Design",
+      "Figma"
+    ],
+    "softSkills": [
+      "Adaptabilidade",
+      "Proatividade",
+      "Pensamento crítico"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 5",
+        "periodo": "2024 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2021"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português",
+      "Inglês",
+      "Espanhol"
+    ],
+    "areaInteresses": [
+      "Design",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
   },
   {
     "id": 51,
-    "nome": "Arthur Silva",
-    "area": "Desenvolvimento Mobile",
+    "nome": "Felipe Gomes",
+    "foto": "https://randomuser.me/api/portraits/men/52.jpg",
+    "cargo": "Analista de Marketing Digital",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "Curitiba, PR",
+    "area": "Marketing",
     "senioridade": "Júnior",
-    "descricao": "Desenvolvedor focado em apps híbridos e integrações API.",
-    "avatar": "https://randomuser.me/api/portraits/men/51.jpg"
+    "habilidadesTecnicas": [
+      "SEO",
+      "Copywriting",
+      "Analytics",
+      "Meta Ads"
+    ],
+    "softSkills": [
+      "Trabalho em equipe",
+      "Pensamento crítico",
+      "Liderança"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 3",
+        "periodo": "2022 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2018"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português",
+      "Inglês",
+      "Espanhol"
+    ],
+    "areaInteresses": [
+      "Marketing",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
   },
   {
     "id": 52,
-    "nome": "Paula Mendes",
-    "area": "Marketing Digital",
-    "senioridade": "Pleno",
-    "descricao": "Profissional de marketing com experiência em funil de vendas e inbound.",
-    "avatar": "https://randomuser.me/api/portraits/women/52.jpg"
+    "nome": "Leonardo Cardoso",
+    "foto": "https://randomuser.me/api/portraits/women/53.jpg",
+    "cargo": "Product Manager",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "Brasília, DF",
+    "area": "Produto",
+    "senioridade": "Sênior",
+    "habilidadesTecnicas": [
+      "Backlog",
+      "Product Discovery",
+      "Roadmap",
+      "Scrum"
+    ],
+    "softSkills": [
+      "Trabalho em equipe",
+      "Pensamento crítico",
+      "Liderança"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 1",
+        "periodo": "2024 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2024"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português",
+      "Inglês",
+      "Espanhol"
+    ],
+    "areaInteresses": [
+      "Produto",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
   },
   {
     "id": 53,
-    "nome": "Ricardo Teles",
-    "area": "Análise de Dados",
+    "nome": "Miguel Nascimento",
+    "foto": "https://randomuser.me/api/portraits/men/54.jpg",
+    "cargo": "Designer UI/UX",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "Fortaleza, CE",
+    "area": "Design",
     "senioridade": "Pleno",
-    "descricao": "Analista de dados com foco em KPIs e dashboards executivos.",
-    "avatar": "https://randomuser.me/api/portraits/men/53.jpg"
+    "habilidadesTecnicas": [
+      "UX Research",
+      "UI Design",
+      "Illustrator",
+      "Adobe XD"
+    ],
+    "softSkills": [
+      "Pensamento crítico",
+      "Liderança",
+      "Trabalho em equipe"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 4",
+        "periodo": "2022 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2021"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português",
+      "Inglês",
+      "Espanhol"
+    ],
+    "areaInteresses": [
+      "Design",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
   },
   {
     "id": 54,
-    "nome": "Bruna Queiroz",
-    "area": "UI/UX Design",
-    "senioridade": "Sênior",
-    "descricao": "Especialista em experiência mobile-first e design acessível.",
-    "avatar": "https://randomuser.me/api/portraits/women/54.jpg"
+    "nome": "Alexandre Nascimento",
+    "foto": "https://randomuser.me/api/portraits/women/55.jpg",
+    "cargo": "Product Manager",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "Porto Alegre, RS",
+    "area": "Produto",
+    "senioridade": "Júnior",
+    "habilidadesTecnicas": [
+      "Kanban",
+      "Backlog",
+      "Scrum",
+      "Product Discovery"
+    ],
+    "softSkills": [
+      "Adaptabilidade",
+      "Proatividade",
+      "Pensamento crítico"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 3",
+        "periodo": "2019 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2020"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português"
+    ],
+    "areaInteresses": [
+      "Produto",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
   },
   {
     "id": 55,
-    "nome": "Leandro Paiva",
-    "area": "Desenvolvimento Front-end",
+    "nome": "Marcos Pereira",
+    "foto": "https://randomuser.me/api/portraits/men/56.jpg",
+    "cargo": "Engenheiro de Software",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "Brasília, DF",
+    "area": "Tecnologia",
     "senioridade": "Pleno",
-    "descricao": "Desenvolvedor front-end com domínio em Tailwind e React.",
-    "avatar": "https://randomuser.me/api/portraits/men/55.jpg"
+    "habilidadesTecnicas": [
+      "Docker",
+      "React",
+      "TypeScript",
+      "JavaScript"
+    ],
+    "softSkills": [
+      "Pensamento crítico",
+      "Comunicação",
+      "Liderança"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 1",
+        "periodo": "2022 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Ciência da Computação",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2019"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português",
+      "Inglês"
+    ],
+    "areaInteresses": [
+      "Tecnologia",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
   },
   {
     "id": 56,
-    "nome": "Tatiana Lopes",
-    "area": "Design Gráfico",
+    "nome": "Arthur Freitas",
+    "foto": "https://randomuser.me/api/portraits/women/57.jpg",
+    "cargo": "Growth Specialist",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "Fortaleza, CE",
+    "area": "Marketing",
     "senioridade": "Júnior",
-    "descricao": "Designer júnior criativa com foco em social media e layouts digitais.",
-    "avatar": "https://randomuser.me/api/portraits/women/56.jpg"
+    "habilidadesTecnicas": [
+      "Meta Ads",
+      "SEO",
+      "Copywriting",
+      "Google Ads"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Proatividade",
+      "Adaptabilidade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 3",
+        "periodo": "2021 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2018"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português",
+      "Inglês"
+    ],
+    "areaInteresses": [
+      "Marketing",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
   },
   {
     "id": 57,
-    "nome": "Eduardo Reis",
-    "area": "Análise de Dados",
-    "senioridade": "Sênior",
-    "descricao": "Analista especializado em Big Data e modelagem estatística.",
-    "avatar": "https://randomuser.me/api/portraits/men/57.jpg"
+    "nome": "Yuri Freitas",
+    "foto": "https://randomuser.me/api/portraits/men/58.jpg",
+    "cargo": "Business Partner",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "Fortaleza, CE",
+    "area": "RH",
+    "senioridade": "Pleno",
+    "habilidadesTecnicas": [
+      "Recrutamento",
+      "Seleção",
+      "Clima organizacional",
+      "Treinamento"
+    ],
+    "softSkills": [
+      "Proatividade",
+      "Trabalho em equipe",
+      "Liderança"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 1",
+        "periodo": "2022 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2023"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português"
+    ],
+    "areaInteresses": [
+      "RH",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
   },
   {
     "id": 58,
-    "nome": "Melissa Rocha",
-    "area": "Design de Produto",
-    "senioridade": "Pleno",
-    "descricao": "Designer de produto voltada à experiência cross-platform.",
-    "avatar": "https://randomuser.me/api/portraits/women/58.jpg"
+    "nome": "Gabriel Freitas",
+    "foto": "https://randomuser.me/api/portraits/women/59.jpg",
+    "cargo": "Product Designer",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "Curitiba, PR",
+    "area": "Design",
+    "senioridade": "Sênior",
+    "habilidadesTecnicas": [
+      "Illustrator",
+      "Figma",
+      "Adobe XD",
+      "UX Research"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Proatividade",
+      "Adaptabilidade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 5",
+        "periodo": "2019 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2019"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português",
+      "Inglês"
+    ],
+    "areaInteresses": [
+      "Design",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
   },
   {
     "id": 59,
-    "nome": "Otávio Figueiredo",
-    "area": "Desenvolvimento Full Stack",
-    "senioridade": "Pleno",
-    "descricao": "Desenvolvedor focado em React, Node e arquitetura de microsserviços.",
-    "avatar": "https://randomuser.me/api/portraits/men/59.jpg"
+    "nome": "Marcos Rocha",
+    "foto": "https://randomuser.me/api/portraits/men/60.jpg",
+    "cargo": "Designer UI/UX",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "Curitiba, PR",
+    "area": "Design",
+    "senioridade": "Júnior",
+    "habilidadesTecnicas": [
+      "UX Research",
+      "Figma",
+      "Prototipagem",
+      "Illustrator"
+    ],
+    "softSkills": [
+      "Pensamento crítico",
+      "Trabalho em equipe",
+      "Comunicação"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 5",
+        "periodo": "2021 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2022"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português",
+      "Inglês"
+    ],
+    "areaInteresses": [
+      "Design",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
   },
   {
     "id": 60,
-    "nome": "Aline Ferreira",
-    "area": "UI/UX Design",
+    "nome": "Jorge Almeida",
+    "foto": "https://randomuser.me/api/portraits/women/61.jpg",
+    "cargo": "Associate Product Manager",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "Recife, PE",
+    "area": "Produto",
+    "senioridade": "Júnior",
+    "habilidadesTecnicas": [
+      "Kanban",
+      "Product Discovery",
+      "Roadmap",
+      "Backlog"
+    ],
+    "softSkills": [
+      "Liderança",
+      "Pensamento crítico",
+      "Trabalho em equipe"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 1",
+        "periodo": "2021 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2021"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português",
+      "Inglês"
+    ],
+    "areaInteresses": [
+      "Produto",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
+  },
+  {
+    "id": 61,
+    "nome": "Carlos Melo",
+    "foto": "https://randomuser.me/api/portraits/men/62.jpg",
+    "cargo": "Designer Gráfico",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "São Paulo, SP",
+    "area": "Design",
     "senioridade": "Sênior",
-    "descricao": "Designer de experiência com foco em acessibilidade e usabilidade.",
-    "avatar": "https://randomuser.me/api/portraits/women/60.jpg"
+    "habilidadesTecnicas": [
+      "UI Design",
+      "Illustrator",
+      "Prototipagem",
+      "Adobe XD"
+    ],
+    "softSkills": [
+      "Adaptabilidade",
+      "Comunicação",
+      "Liderança"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 1",
+        "periodo": "2019 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2022"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português",
+      "Inglês"
+    ],
+    "areaInteresses": [
+      "Design",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
+  },
+  {
+    "id": 62,
+    "nome": "Enzo Correia",
+    "foto": "https://randomuser.me/api/portraits/women/63.jpg",
+    "cargo": "Product Designer",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "Brasília, DF",
+    "area": "Design",
+    "senioridade": "Júnior",
+    "habilidadesTecnicas": [
+      "Adobe XD",
+      "Figma",
+      "UX Research",
+      "UI Design"
+    ],
+    "softSkills": [
+      "Adaptabilidade",
+      "Proatividade",
+      "Comunicação"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 3",
+        "periodo": "2020 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2018"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português",
+      "Inglês"
+    ],
+    "areaInteresses": [
+      "Design",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
+  },
+  {
+    "id": 63,
+    "nome": "Yuri Rocha",
+    "foto": "https://randomuser.me/api/portraits/men/64.jpg",
+    "cargo": "Social Media",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "Florianópolis, SC",
+    "area": "Marketing",
+    "senioridade": "Pleno",
+    "habilidadesTecnicas": [
+      "Google Ads",
+      "Analytics",
+      "Meta Ads",
+      "Copywriting"
+    ],
+    "softSkills": [
+      "Proatividade",
+      "Trabalho em equipe",
+      "Liderança"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 5",
+        "periodo": "2018 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2021"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português",
+      "Inglês"
+    ],
+    "areaInteresses": [
+      "Marketing",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
+  },
+  {
+    "id": 64,
+    "nome": "Alex Rocha",
+    "foto": "https://randomuser.me/api/portraits/women/65.jpg",
+    "cargo": "Analista de Marketing Digital",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "Rio de Janeiro, RJ",
+    "area": "Marketing",
+    "senioridade": "Pleno",
+    "habilidadesTecnicas": [
+      "SEO",
+      "Copywriting",
+      "Meta Ads",
+      "Google Ads"
+    ],
+    "softSkills": [
+      "Adaptabilidade",
+      "Comunicação",
+      "Proatividade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 2",
+        "periodo": "2024 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2020"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português",
+      "Inglês",
+      "Espanhol"
+    ],
+    "areaInteresses": [
+      "Marketing",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
+  },
+  {
+    "id": 65,
+    "nome": "Gustavo Cardoso",
+    "foto": "https://randomuser.me/api/portraits/men/66.jpg",
+    "cargo": "Product Designer",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "Florianópolis, SC",
+    "area": "Design",
+    "senioridade": "Pleno",
+    "habilidadesTecnicas": [
+      "Figma",
+      "Illustrator",
+      "UX Research",
+      "Adobe XD"
+    ],
+    "softSkills": [
+      "Proatividade",
+      "Comunicação",
+      "Adaptabilidade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 3",
+        "periodo": "2023 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2023"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português"
+    ],
+    "areaInteresses": [
+      "Design",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
+  },
+  {
+    "id": 66,
+    "nome": "Diego Fernandes",
+    "foto": "https://randomuser.me/api/portraits/women/67.jpg",
+    "cargo": "Designer Gráfico",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "São Paulo, SP",
+    "area": "Design",
+    "senioridade": "Pleno",
+    "habilidadesTecnicas": [
+      "Figma",
+      "Adobe XD",
+      "Illustrator",
+      "UX Research"
+    ],
+    "softSkills": [
+      "Pensamento crítico",
+      "Liderança",
+      "Proatividade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 1",
+        "periodo": "2022 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2018"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português",
+      "Inglês"
+    ],
+    "areaInteresses": [
+      "Design",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
+  },
+  {
+    "id": 67,
+    "nome": "André Teixeira",
+    "foto": "https://randomuser.me/api/portraits/men/68.jpg",
+    "cargo": "Analista Financeiro",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "Recife, PE",
+    "area": "Finanças",
+    "senioridade": "Pleno",
+    "habilidadesTecnicas": [
+      "Excel",
+      "Power BI",
+      "Modelagem financeira",
+      "Análise de dados"
+    ],
+    "softSkills": [
+      "Pensamento crítico",
+      "Trabalho em equipe",
+      "Proatividade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 1",
+        "periodo": "2020 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2024"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português"
+    ],
+    "areaInteresses": [
+      "Finanças",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
+  },
+  {
+    "id": 68,
+    "nome": "André Nascimento",
+    "foto": "https://randomuser.me/api/portraits/women/69.jpg",
+    "cargo": "Analista de Investimentos",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "Curitiba, PR",
+    "area": "Finanças",
+    "senioridade": "Pleno",
+    "habilidadesTecnicas": [
+      "Power BI",
+      "Excel",
+      "Análise de dados",
+      "Modelagem financeira"
+    ],
+    "softSkills": [
+      "Liderança",
+      "Pensamento crítico",
+      "Trabalho em equipe"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 1",
+        "periodo": "2021 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2020"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português",
+      "Inglês"
+    ],
+    "areaInteresses": [
+      "Finanças",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
+  },
+  {
+    "id": 69,
+    "nome": "Jorge Rocha",
+    "foto": "https://randomuser.me/api/portraits/men/70.jpg",
+    "cargo": "Desenvolvedor Back-end",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "São Paulo, SP",
+    "area": "Tecnologia",
+    "senioridade": "Sênior",
+    "habilidadesTecnicas": [
+      "Python",
+      "TypeScript",
+      "Node.js",
+      "SQL"
+    ],
+    "softSkills": [
+      "Proatividade",
+      "Adaptabilidade",
+      "Pensamento crítico"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 4",
+        "periodo": "2021 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Ciência da Computação",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2020"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português",
+      "Inglês",
+      "Espanhol"
+    ],
+    "areaInteresses": [
+      "Tecnologia",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
+  },
+  {
+    "id": 70,
+    "nome": "Diego Ribeiro",
+    "foto": "https://randomuser.me/api/portraits/women/1.jpg",
+    "cargo": "Designer Gráfico",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "Rio de Janeiro, RJ",
+    "area": "Design",
+    "senioridade": "Júnior",
+    "habilidadesTecnicas": [
+      "Adobe XD",
+      "UI Design",
+      "Illustrator",
+      "UX Research"
+    ],
+    "softSkills": [
+      "Trabalho em equipe",
+      "Pensamento crítico",
+      "Proatividade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 2",
+        "periodo": "2024 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2021"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português",
+      "Inglês",
+      "Espanhol"
+    ],
+    "areaInteresses": [
+      "Design",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
+  },
+  {
+    "id": 71,
+    "nome": "Jorge Campos",
+    "foto": "https://randomuser.me/api/portraits/men/2.jpg",
+    "cargo": "Engenheiro de Software",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "Salvador, BA",
+    "area": "Tecnologia",
+    "senioridade": "Sênior",
+    "habilidadesTecnicas": [
+      "Docker",
+      "TypeScript",
+      "React",
+      "Python"
+    ],
+    "softSkills": [
+      "Adaptabilidade",
+      "Proatividade",
+      "Comunicação"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 3",
+        "periodo": "2022 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Ciência da Computação",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2020"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português",
+      "Inglês"
+    ],
+    "areaInteresses": [
+      "Tecnologia",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
+  },
+  {
+    "id": 72,
+    "nome": "Leonardo Carvalho",
+    "foto": "https://randomuser.me/api/portraits/women/3.jpg",
+    "cargo": "Analista Financeiro",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "Curitiba, PR",
+    "area": "Finanças",
+    "senioridade": "Sênior",
+    "habilidadesTecnicas": [
+      "Power BI",
+      "Análise de dados",
+      "Excel",
+      "Modelagem financeira"
+    ],
+    "softSkills": [
+      "Pensamento crítico",
+      "Comunicação",
+      "Proatividade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 1",
+        "periodo": "2021 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2023"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português"
+    ],
+    "areaInteresses": [
+      "Finanças",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
+  },
+  {
+    "id": 73,
+    "nome": "Daniel Borges",
+    "foto": "https://randomuser.me/api/portraits/men/4.jpg",
+    "cargo": "Growth Specialist",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "Curitiba, PR",
+    "area": "Marketing",
+    "senioridade": "Júnior",
+    "habilidadesTecnicas": [
+      "SEO",
+      "Copywriting",
+      "Analytics",
+      "Meta Ads"
+    ],
+    "softSkills": [
+      "Liderança",
+      "Proatividade",
+      "Adaptabilidade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 2",
+        "periodo": "2020 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2021"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português"
+    ],
+    "areaInteresses": [
+      "Marketing",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
+  },
+  {
+    "id": 74,
+    "nome": "João Cardoso",
+    "foto": "https://randomuser.me/api/portraits/women/5.jpg",
+    "cargo": "Designer Gráfico",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "Curitiba, PR",
+    "area": "Design",
+    "senioridade": "Sênior",
+    "habilidadesTecnicas": [
+      "Illustrator",
+      "UI Design",
+      "Adobe XD",
+      "Prototipagem"
+    ],
+    "softSkills": [
+      "Adaptabilidade",
+      "Liderança",
+      "Pensamento crítico"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 2",
+        "periodo": "2024 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2021"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português",
+      "Inglês",
+      "Espanhol"
+    ],
+    "areaInteresses": [
+      "Design",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
+  },
+  {
+    "id": 75,
+    "nome": "Leandro Gomes",
+    "foto": "https://randomuser.me/api/portraits/men/6.jpg",
+    "cargo": "Business Partner",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "Recife, PE",
+    "area": "RH",
+    "senioridade": "Júnior",
+    "habilidadesTecnicas": [
+      "Treinamento",
+      "Recrutamento",
+      "Clima organizacional",
+      "Seleção"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Pensamento crítico",
+      "Proatividade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 5",
+        "periodo": "2024 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2023"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português",
+      "Inglês",
+      "Espanhol"
+    ],
+    "areaInteresses": [
+      "RH",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
+  },
+  {
+    "id": 76,
+    "nome": "Mariana Silva",
+    "foto": "https://randomuser.me/api/portraits/women/7.jpg",
+    "cargo": "Analista de Recursos Humanos",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "Recife, PE",
+    "area": "RH",
+    "senioridade": "Pleno",
+    "habilidadesTecnicas": [
+      "Clima organizacional",
+      "Seleção",
+      "Recrutamento",
+      "Treinamento"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Pensamento crítico",
+      "Adaptabilidade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 4",
+        "periodo": "2022 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2024"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português",
+      "Inglês"
+    ],
+    "areaInteresses": [
+      "RH",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
+  },
+  {
+    "id": 77,
+    "nome": "Carlos Monteiro",
+    "foto": "https://randomuser.me/api/portraits/men/8.jpg",
+    "cargo": "Recrutador Tech",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "Salvador, BA",
+    "area": "RH",
+    "senioridade": "Pleno",
+    "habilidadesTecnicas": [
+      "Recrutamento",
+      "Treinamento",
+      "Clima organizacional",
+      "Seleção"
+    ],
+    "softSkills": [
+      "Proatividade",
+      "Liderança",
+      "Adaptabilidade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 2",
+        "periodo": "2019 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2023"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português"
+    ],
+    "areaInteresses": [
+      "RH",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
+  },
+  {
+    "id": 78,
+    "nome": "Bruno Costa",
+    "foto": "https://randomuser.me/api/portraits/women/9.jpg",
+    "cargo": "Designer UI/UX",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "Brasília, DF",
+    "area": "Design",
+    "senioridade": "Sênior",
+    "habilidadesTecnicas": [
+      "Illustrator",
+      "Figma",
+      "Adobe XD",
+      "Prototipagem"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Proatividade",
+      "Trabalho em equipe"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 5",
+        "periodo": "2021 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2023"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português"
+    ],
+    "areaInteresses": [
+      "Design",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
+  },
+  {
+    "id": 79,
+    "nome": "Rodrigo Ribeiro",
+    "foto": "https://randomuser.me/api/portraits/men/10.jpg",
+    "cargo": "Social Media",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "Florianópolis, SC",
+    "area": "Marketing",
+    "senioridade": "Pleno",
+    "habilidadesTecnicas": [
+      "Meta Ads",
+      "Google Ads",
+      "SEO",
+      "Copywriting"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Liderança",
+      "Adaptabilidade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 3",
+        "periodo": "2021 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2022"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português",
+      "Inglês"
+    ],
+    "areaInteresses": [
+      "Marketing",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
+  },
+  {
+    "id": 80,
+    "nome": "Yuri Oliveira",
+    "foto": "https://randomuser.me/api/portraits/women/11.jpg",
+    "cargo": "Analista de Investimentos",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "Belo Horizonte, MG",
+    "area": "Finanças",
+    "senioridade": "Sênior",
+    "habilidadesTecnicas": [
+      "Modelagem financeira",
+      "Excel",
+      "Análise de dados",
+      "Power BI"
+    ],
+    "softSkills": [
+      "Adaptabilidade",
+      "Proatividade",
+      "Pensamento crítico"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 4",
+        "periodo": "2018 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2020"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português",
+      "Inglês"
+    ],
+    "areaInteresses": [
+      "Finanças",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
+  },
+  {
+    "id": 81,
+    "nome": "Thiago Dias",
+    "foto": "https://randomuser.me/api/portraits/men/12.jpg",
+    "cargo": "Product Manager",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "Belo Horizonte, MG",
+    "area": "Produto",
+    "senioridade": "Pleno",
+    "habilidadesTecnicas": [
+      "Kanban",
+      "Scrum",
+      "Backlog",
+      "Product Discovery"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Pensamento crítico",
+      "Trabalho em equipe"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 1",
+        "periodo": "2020 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2021"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português"
+    ],
+    "areaInteresses": [
+      "Produto",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
+  },
+  {
+    "id": 82,
+    "nome": "Paulo Moura",
+    "foto": "https://randomuser.me/api/portraits/women/13.jpg",
+    "cargo": "Product Owner",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "Curitiba, PR",
+    "area": "Produto",
+    "senioridade": "Sênior",
+    "habilidadesTecnicas": [
+      "Product Discovery",
+      "Scrum",
+      "Kanban",
+      "Roadmap"
+    ],
+    "softSkills": [
+      "Trabalho em equipe",
+      "Adaptabilidade",
+      "Liderança"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 3",
+        "periodo": "2022 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2023"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português"
+    ],
+    "areaInteresses": [
+      "Produto",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
+  },
+  {
+    "id": 83,
+    "nome": "Nathan Borges",
+    "foto": "https://randomuser.me/api/portraits/men/14.jpg",
+    "cargo": "Analista de Marketing Digital",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "Porto Alegre, RS",
+    "area": "Marketing",
+    "senioridade": "Sênior",
+    "habilidadesTecnicas": [
+      "SEO",
+      "Google Ads",
+      "Meta Ads",
+      "Copywriting"
+    ],
+    "softSkills": [
+      "Pensamento crítico",
+      "Comunicação",
+      "Proatividade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 2",
+        "periodo": "2021 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2024"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português"
+    ],
+    "areaInteresses": [
+      "Marketing",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
+  },
+  {
+    "id": 84,
+    "nome": "Alexia Silva",
+    "foto": "https://randomuser.me/api/portraits/women/15.jpg",
+    "cargo": "Business Partner",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "Belo Horizonte, MG",
+    "area": "RH",
+    "senioridade": "Sênior",
+    "habilidadesTecnicas": [
+      "Seleção",
+      "Treinamento",
+      "Recrutamento",
+      "Clima organizacional"
+    ],
+    "softSkills": [
+      "Adaptabilidade",
+      "Pensamento crítico",
+      "Proatividade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 2",
+        "periodo": "2023 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2019"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português",
+      "Inglês"
+    ],
+    "areaInteresses": [
+      "RH",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
+  },
+  {
+    "id": 85,
+    "nome": "João Gomes",
+    "foto": "https://randomuser.me/api/portraits/men/16.jpg",
+    "cargo": "Desenvolvedor Full Stack",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "Florianópolis, SC",
+    "area": "Tecnologia",
+    "senioridade": "Sênior",
+    "habilidadesTecnicas": [
+      "SQL",
+      "Docker",
+      "JavaScript",
+      "Python"
+    ],
+    "softSkills": [
+      "Adaptabilidade",
+      "Comunicação",
+      "Trabalho em equipe"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 5",
+        "periodo": "2021 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Ciência da Computação",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2022"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português"
+    ],
+    "areaInteresses": [
+      "Tecnologia",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
+  },
+  {
+    "id": 86,
+    "nome": "Leonarda Oliveira",
+    "foto": "https://randomuser.me/api/portraits/women/17.jpg",
+    "cargo": "Product Designer",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "Belo Horizonte, MG",
+    "area": "Design",
+    "senioridade": "Sênior",
+    "habilidadesTecnicas": [
+      "Prototipagem",
+      "Illustrator",
+      "UI Design",
+      "Adobe XD"
+    ],
+    "softSkills": [
+      "Liderança",
+      "Comunicação",
+      "Trabalho em equipe"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 1",
+        "periodo": "2021 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2023"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português"
+    ],
+    "areaInteresses": [
+      "Design",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
+  },
+  {
+    "id": 87,
+    "nome": "Renan Rocha",
+    "foto": "https://randomuser.me/api/portraits/men/18.jpg",
+    "cargo": "Engenheiro de Software",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "Recife, PE",
+    "area": "Tecnologia",
+    "senioridade": "Pleno",
+    "habilidadesTecnicas": [
+      "React",
+      "Node.js",
+      "JavaScript",
+      "TypeScript"
+    ],
+    "softSkills": [
+      "Trabalho em equipe",
+      "Pensamento crítico",
+      "Liderança"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 3",
+        "periodo": "2021 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Ciência da Computação",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2018"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português",
+      "Inglês",
+      "Espanhol"
+    ],
+    "areaInteresses": [
+      "Tecnologia",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
+  },
+  {
+    "id": 88,
+    "nome": "Camila Santos",
+    "foto": "https://randomuser.me/api/portraits/women/19.jpg",
+    "cargo": "Associate Product Manager",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "Brasília, DF",
+    "area": "Produto",
+    "senioridade": "Júnior",
+    "habilidadesTecnicas": [
+      "Product Discovery",
+      "Scrum",
+      "Backlog",
+      "Roadmap"
+    ],
+    "softSkills": [
+      "Liderança",
+      "Trabalho em equipe",
+      "Pensamento crítico"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 5",
+        "periodo": "2024 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2018"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português",
+      "Inglês",
+      "Espanhol"
+    ],
+    "areaInteresses": [
+      "Produto",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
+  },
+  {
+    "id": 89,
+    "nome": "Nathan Borges",
+    "foto": "https://randomuser.me/api/portraits/men/20.jpg",
+    "cargo": "Analista de Marketing Digital",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "Brasília, DF",
+    "area": "Marketing",
+    "senioridade": "Sênior",
+    "habilidadesTecnicas": [
+      "Copywriting",
+      "SEO",
+      "Google Ads",
+      "Analytics"
+    ],
+    "softSkills": [
+      "Proatividade",
+      "Comunicação",
+      "Liderança"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 1",
+        "periodo": "2024 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2023"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português",
+      "Inglês",
+      "Espanhol"
+    ],
+    "areaInteresses": [
+      "Marketing",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
+  },
+  {
+    "id": 90,
+    "nome": "Mariana Silva",
+    "foto": "https://randomuser.me/api/portraits/women/21.jpg",
+    "cargo": "Recrutador Tech",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "Florianópolis, SC",
+    "area": "RH",
+    "senioridade": "Sênior",
+    "habilidadesTecnicas": [
+      "Treinamento",
+      "Recrutamento",
+      "Seleção",
+      "Clima organizacional"
+    ],
+    "softSkills": [
+      "Pensamento crítico",
+      "Proatividade",
+      "Liderança"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 4",
+        "periodo": "2023 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2019"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português"
+    ],
+    "areaInteresses": [
+      "RH",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
+  },
+  {
+    "id": 91,
+    "nome": "Julia Fernandes",
+    "foto": "https://randomuser.me/api/portraits/men/22.jpg",
+    "cargo": "Designer UI/UX",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "Curitiba, PR",
+    "area": "Design",
+    "senioridade": "Júnior",
+    "habilidadesTecnicas": [
+      "UI Design",
+      "Figma",
+      "Prototipagem",
+      "UX Research"
+    ],
+    "softSkills": [
+      "Liderança",
+      "Pensamento crítico",
+      "Adaptabilidade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 2",
+        "periodo": "2024 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2021"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português"
+    ],
+    "areaInteresses": [
+      "Design",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
+  },
+  {
+    "id": 92,
+    "nome": "Nathan Carvalho",
+    "foto": "https://randomuser.me/api/portraits/women/23.jpg",
+    "cargo": "Social Media",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "Belo Horizonte, MG",
+    "area": "Marketing",
+    "senioridade": "Pleno",
+    "habilidadesTecnicas": [
+      "SEO",
+      "Google Ads",
+      "Analytics",
+      "Meta Ads"
+    ],
+    "softSkills": [
+      "Proatividade",
+      "Liderança",
+      "Pensamento crítico"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 5",
+        "periodo": "2020 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2023"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português"
+    ],
+    "areaInteresses": [
+      "Marketing",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
+  },
+  {
+    "id": 93,
+    "nome": "Henrique Freitas",
+    "foto": "https://randomuser.me/api/portraits/men/24.jpg",
+    "cargo": "Product Manager",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "Curitiba, PR",
+    "area": "Produto",
+    "senioridade": "Pleno",
+    "habilidadesTecnicas": [
+      "Scrum",
+      "Roadmap",
+      "Product Discovery",
+      "Backlog"
+    ],
+    "softSkills": [
+      "Trabalho em equipe",
+      "Liderança",
+      "Comunicação"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 5",
+        "periodo": "2024 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2022"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português",
+      "Inglês"
+    ],
+    "areaInteresses": [
+      "Produto",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
+  },
+  {
+    "id": 94,
+    "nome": "Gabriel Gomes",
+    "foto": "https://randomuser.me/api/portraits/women/25.jpg",
+    "cargo": "Product Manager",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "Fortaleza, CE",
+    "area": "Produto",
+    "senioridade": "Pleno",
+    "habilidadesTecnicas": [
+      "Kanban",
+      "Backlog",
+      "Scrum",
+      "Product Discovery"
+    ],
+    "softSkills": [
+      "Adaptabilidade",
+      "Trabalho em equipe",
+      "Liderança"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 1",
+        "periodo": "2024 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2021"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português",
+      "Inglês"
+    ],
+    "areaInteresses": [
+      "Produto",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
+  },
+  {
+    "id": 95,
+    "nome": "Matheus Almeida",
+    "foto": "https://randomuser.me/api/portraits/men/26.jpg",
+    "cargo": "Desenvolvedor Back-end",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "Recife, PE",
+    "area": "Tecnologia",
+    "senioridade": "Sênior",
+    "habilidadesTecnicas": [
+      "SQL",
+      "JavaScript",
+      "Node.js",
+      "React"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Trabalho em equipe",
+      "Liderança"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 3",
+        "periodo": "2024 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Ciência da Computação",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2021"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português",
+      "Inglês"
+    ],
+    "areaInteresses": [
+      "Tecnologia",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
+  },
+  {
+    "id": 96,
+    "nome": "Alexandre Correia",
+    "foto": "https://randomuser.me/api/portraits/women/27.jpg",
+    "cargo": "Product Designer",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "Florianópolis, SC",
+    "area": "Design",
+    "senioridade": "Pleno",
+    "habilidadesTecnicas": [
+      "Illustrator",
+      "Adobe XD",
+      "UI Design",
+      "Figma"
+    ],
+    "softSkills": [
+      "Pensamento crítico",
+      "Comunicação",
+      "Trabalho em equipe"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 4",
+        "periodo": "2018 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2021"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português",
+      "Inglês",
+      "Espanhol"
+    ],
+    "areaInteresses": [
+      "Design",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
+  },
+  {
+    "id": 97,
+    "nome": "Lucas Silva",
+    "foto": "https://randomuser.me/api/portraits/men/28.jpg",
+    "cargo": "Analista de Recursos Humanos",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "Salvador, BA",
+    "area": "RH",
+    "senioridade": "Sênior",
+    "habilidadesTecnicas": [
+      "Clima organizacional",
+      "Seleção",
+      "Recrutamento",
+      "Treinamento"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Pensamento crítico",
+      "Adaptabilidade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 5",
+        "periodo": "2018 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2020"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português",
+      "Inglês",
+      "Espanhol"
+    ],
+    "areaInteresses": [
+      "RH",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
+  },
+  {
+    "id": 98,
+    "nome": "Henrique Campos",
+    "foto": "https://randomuser.me/api/portraits/women/29.jpg",
+    "cargo": "Growth Specialist",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "Florianópolis, SC",
+    "area": "Marketing",
+    "senioridade": "Pleno",
+    "habilidadesTecnicas": [
+      "Analytics",
+      "Meta Ads",
+      "Copywriting",
+      "SEO"
+    ],
+    "softSkills": [
+      "Adaptabilidade",
+      "Trabalho em equipe",
+      "Pensamento crítico"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 2",
+        "periodo": "2023 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2022"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português",
+      "Inglês",
+      "Espanhol"
+    ],
+    "areaInteresses": [
+      "Marketing",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
+  },
+  {
+    "id": 99,
+    "nome": "Rafael Barros",
+    "foto": "https://randomuser.me/api/portraits/men/30.jpg",
+    "cargo": "Product Manager",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "São Paulo, SP",
+    "area": "Produto",
+    "senioridade": "Júnior",
+    "habilidadesTecnicas": [
+      "Product Discovery",
+      "Kanban",
+      "Backlog",
+      "Roadmap"
+    ],
+    "softSkills": [
+      "Liderança",
+      "Trabalho em equipe",
+      "Pensamento crítico"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 1",
+        "periodo": "2021 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2020"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português"
+    ],
+    "areaInteresses": [
+      "Produto",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
+  },
+  {
+    "id": 100,
+    "nome": "Arthur Campos",
+    "foto": "https://randomuser.me/api/portraits/women/31.jpg",
+    "cargo": "Analista de Marketing Digital",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "Curitiba, PR",
+    "area": "Marketing",
+    "senioridade": "Pleno",
+    "habilidadesTecnicas": [
+      "Copywriting",
+      "SEO",
+      "Analytics",
+      "Google Ads"
+    ],
+    "softSkills": [
+      "Adaptabilidade",
+      "Trabalho em equipe",
+      "Pensamento crítico"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 4",
+        "periodo": "2024 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2020"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português",
+      "Inglês"
+    ],
+    "areaInteresses": [
+      "Marketing",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
   }
 ]

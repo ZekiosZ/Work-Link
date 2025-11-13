@@ -12,7 +12,6 @@ export default function Navbar({ dark, setDark }) {
         </Link>
         <nav className="flex items-center gap-1">
           <Link className={`btn btn-ghost ${pathname === "/" ? "token-primary" : ""}`} to="/">Explorar</Link>
-          <Link className={`btn btn-ghost ${pathname.startsWith("/profiles") ? "token-primary" : ""}`} to="/profiles/preview">Perfis</Link>
           <button className="btn btn-ghost" onClick={() => setDark((v) => !v)} aria-label="Alternar tema">
             <span className="hidden sm:inline">{dark ? "Modo Claro" : "Modo Escuro"}</span>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="h-5 w-5">

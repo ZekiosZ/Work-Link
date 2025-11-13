@@ -5,7 +5,7 @@ import SearchBar from "./components/SearchBar.jsx";
 import FilterBar from "./components/FilterBar.jsx";
 import ProfileCard from "./components/ProfileCard.jsx";
 import ProfileModal from "./components/ProfileModal.jsx";
-import Profiles from "./pages/Profiles.jsx";
+import Profiles from "./pages/UserProfiles.jsx";
 import "./App.css";
 
 function MainContent({
@@ -33,12 +33,7 @@ function MainContent({
             <p className="token-muted mt-1 text-sm">
               Explore perfis, filtre por área e conecte-se para oportunidades.
             </p>
-          </div>
-          <div className="flex items-center gap-3">
-            <Link to="/profiles/preview" className="btn btn-secondary">
-              Ver página de perfil
-            </Link>
-          </div>
+          </div>  
         </section>
 
         {/* Busca e filtros */}
@@ -63,10 +58,13 @@ function MainContent({
             profiles.map((p) => (
               <ProfileCard
                 key={p.id}
+                // mapeando pros campos REAIS do JSON
                 name={p.nome}
-                role={`${p.area} • ${p.senioridade}`}
-                avatar={p.avatar}
-                skills={[p.area, p.senioridade]}
+                role={p.cargo}                     // cargo do usuário
+                area={p.area}                      // "Tecnologia"
+                location={p.localizacao}           // "Rio de Janeiro, RJ"
+                avatar={p.foto}                    // foto do JSON
+                skills={p.habilidadesTecnicas || []} // lista de skills técnicas
                 onClick={() => setSelected(p)}
               />
             ))
@@ -103,11 +101,12 @@ export default function App() {
     if (filters.area) params.append("area", filters.area);
     if (filters.seniority) params.append("senioridade", filters.seniority);
 
+
     fetch(`http://localhost:5000/api/search?${params.toString()}`)
       .then((res) => res.json())
       .then((data) => setProfiles(data))
       .catch((err) => console.error("Erro ao buscar perfis:", err));
-  }, [query, filters]); // 👈 Atualiza quando muda busca ou filtro
+  }, [query, filters]);
 
   return (
     <>
