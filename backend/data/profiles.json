@@ -5405,5 +5405,169 @@
       "Inovação",
       "Desenvolvimento profissional"
     ]
+  },
+  {
+    "id": 101,
+    "nome": "José Rafael Tejeda Mantilla",
+    "foto": "/public/images/Jose.jpeg",
+    "cargo": "FullStack/Game Developer Na Rockstar Games",
+    "resumo": "Profissional com experiência em equipes multidisciplinares, criador de varios jogos famosos e foco em resultados.",
+    "localizacao": "São Paulo, Pirituba, SP",
+    "area": "Desenvolvimento",
+    "senioridade": "Sênior",
+    "habilidadesTecnicas": [
+      "3D Modeling",
+      "Python",
+      "Game Development",
+      "C#"
+    ],
+    "softSkills": [
+      "Adaptabilidade",
+      "Proatividade",
+      "Liderança"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Rockstar Games",
+        "periodo": "2008 - Atual",
+        "descricao": "Atuação em projetos de desenvolvimento de jogos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia de software",
+        "instituicao": "Fiap Paulista",
+        "conclusao": "2028"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "GTA VI",
+        "descricao": "Projeto Ambicioso do melhor jogo que sera criado da historia."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês avançado",
+      "Espanhol Fluente"
+    ],
+    "idiomas": [
+      "Português",
+      "Inglês",
+      "Espanhol"
+    ],
+    "areaInteresses": [
+      "Desenvolvimento de jogos",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
+  },
+  {
+    "id": 102,
+    "nome": "Walter Henrique Pereira de Toledo",
+    "foto": "/public/images/Walter.jpeg",
+    "cargo": "Growth Specialist",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "Salvador, BA",
+    "area": "Marketing",
+    "senioridade": "Sênior",
+    "habilidadesTecnicas": [
+      "Analytics",
+      "SEO",
+      "Google Ads",
+      "Copywriting"
+    ],
+    "softSkills": [
+      "Adaptabilidade",
+      "Proatividade",
+      "Liderança"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 5",
+        "periodo": "2023 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2019"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português",
+      "Inglês"
+    ],
+    "areaInteresses": [
+      "Marketing",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
+  },
+  {
+    "id": 103,
+    "nome": "Theodoro Sievers",
+    "foto": "/public/images/Theo.jpg",
+    "cargo": "Growth Specialist",
+    "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
+    "localizacao": "Salvador, BA",
+    "area": "Marketing",
+    "senioridade": "Sênior",
+    "habilidadesTecnicas": [
+      "Analytics",
+      "SEO",
+      "Google Ads",
+      "Copywriting"
+    ],
+    "softSkills": [
+      "Adaptabilidade",
+      "Proatividade",
+      "Liderança"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 5",
+        "periodo": "2023 - Atual",
+        "descricao": "Atuação em projetos colaborativos usando metodologias ágeis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "Universidade Federal",
+        "conclusao": "2019"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto de Destaque",
+        "descricao": "Projeto desenvolvido com foco em inovação e melhoria contínua."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Fundamentals",
+      "Inglês Intermediário"
+    ],
+    "idiomas": [
+      "Português",
+      "Inglês"
+    ],
+    "areaInteresses": [
+      "Marketing",
+      "Inovação",
+      "Desenvolvimento profissional"
+    ]
   }
 ]

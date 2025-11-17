@@ -5,10 +5,11 @@ import SearchBar from "./components/SearchBar.jsx";
 import FilterBar from "./components/FilterBar.jsx";
 import ProfileCard from "./components/ProfileCard.jsx";
 import ProfileModal from "./components/ProfileModal.jsx";
+import LoginModal from "./components/LoginModal.jsx";
 import Profiles from "./pages/UserProfiles.jsx";
 import "./App.css";
 
-// 🔀 Embaralhar array (Fisher–Yates)
+// 🔀 Embaralhar array
 function shuffleArray(arr) {
   const array = [...arr];
   for (let i = array.length - 1; i > 0; i--) {
@@ -28,10 +29,19 @@ function MainContent({
   selected,
   setSelected,
   profiles,
+  user,
+  onLoginClick,
+  onLogout,
 }) {
   return (
     <div className="min-h-screen token-bg token-text">
-      <Navbar dark={dark} setDark={setDark} />
+      <Navbar
+        dark={dark}
+        setDark={setDark}
+        user={user}
+        onLoginClick={onLoginClick}
+        onLogout={onLogout}
+      />
 
       <main className="mx-auto max-w-7xl px-4 pb-20 pt-8">
         {/* Cabeçalho */}
@@ -68,13 +78,13 @@ function MainContent({
             profiles.map((p) => (
               <ProfileCard
                 key={p.id}
-                // mapeando pros campos REAIS do JSON
                 name={p.nome}
-                role={p.cargo}                       // cargo do usuário
-                area={p.area}                        // "Tecnologia"
-                location={p.localizacao}             // "Rio de Janeiro, RJ"
-                avatar={p.foto}                      // foto do JSON
-                skills={p.habilidadesTecnicas || []} // lista de skills técnicas
+                role={p.cargo}
+                area={p.area}
+                location={p.localizacao}
+                avatar={p.foto}
+                skills={p.habilidadesTecnicas || []}
+                isCurrentUser={user?.profileId === p.id}
                 onClick={() => setSelected(p)}
               />
             ))
@@ -87,6 +97,8 @@ function MainContent({
         open={!!selected}
         onClose={() => setSelected(null)}
         profile={selected}
+        // se seu ProfileModal aceitar isso, ele sabe se é o usuário logado
+        isCurrentUser={user?.profileId === selected?.id}
       />
     </div>
   );
@@ -98,6 +110,11 @@ export default function App() {
   const [filters, setFilters] = useState({ area: "", seniority: "" });
   const [selected, setSelected] = useState(null);
   const [profiles, setProfiles] = useState([]);
+
+  const [user, setUser] = useState(null);
+  const [showLogin, setShowLogin] = useState(false);
+  const [loginLoading, setLoginLoading] = useState(false);
+  const [loginError, setLoginError] = useState("");
 
   // Alternância modo escuro
   useEffect(() => {
@@ -114,12 +131,46 @@ export default function App() {
     fetch(`http://localhost:5000/api/search?${params.toString()}`)
       .then((res) => res.json())
       .then((data) => {
-        console.log("Total perfis recebidos:", data.length);
-        const embaralhados = shuffleArray(data); // 🔀 aqui embaralha
+        const embaralhados = shuffleArray(data);
         setProfiles(embaralhados);
       })
       .catch((err) => console.error("Erro ao buscar perfis:", err));
   }, [query, filters]);
+
+  // Handler de login
+  async function handleLogin({ email, senha }) {
+    try {
+      setLoginLoading(true);
+      setLoginError("");
+
+      const res = await fetch("http://localhost:5000/api/login", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email, senha }),
+      });
+
+      if (!res.ok) {
+        if (res.status === 401) {
+          throw new Error("Usuário ou senha inválidos");
+        }
+        throw new Error("Erro ao fazer login");
+      }
+
+      const data = await res.json();
+
+      // backend: { email, profileId, ... }
+      setUser({ email: data.email, profileId: data.profileId });
+      setShowLogin(false);
+    } catch (err) {
+      setLoginError(err.message);
+    } finally {
+      setLoginLoading(false);
+    }
+  }
+
+  function handleLogout() {
+    setUser(null);
+  }
 
   return (
     <>
@@ -137,12 +188,24 @@ export default function App() {
               selected={selected}
               setSelected={setSelected}
               profiles={profiles}
+              user={user}
+              onLoginClick={() => setShowLogin(true)}
+              onLogout={handleLogout}
             />
           }
         />
         <Route path="/profiles/:id" element={<Profiles />} />
         <Route path="/profiles/preview" element={<Profiles preview />} />
       </Routes>
+
+      {/* Modal de Login */}
+      <LoginModal
+        open={showLogin}
+        onClose={() => setShowLogin(false)}
+        onLogin={handleLogin}
+        loading={loginLoading}
+        error={loginError}
+      />
     </>
   );
 }

@@ -22,10 +22,18 @@ let profiles = [];
 try {
   const jsonData = fs.readFileSync(dataPath, "utf-8");
   profiles = JSON.parse(jsonData);
-  console.log(`✅ Perfis carregados com sucesso!`);
+  console.log(`✅ Perfis carregados com sucesso! (${profiles.length} perfis)`);
 } catch (error) {
   console.error("❌ Erro ao ler o arquivo profiles.json:", error.message);
 }
+
+// === Usuários especiais de DEMO (login) ===
+// profileId PRECISA existir dentro do profiles.json
+const demoUsers = [
+  { email: "devjose@gmail.com",   senha: "jose123",   profileId: 101 },
+  { email: "devwalter@gmail.com", senha: "walter123", profileId: 102 },
+  { email: "devsievers@gmail.com",senha: "sievers123",profileId: 103 },
+];
 
 // === Rota principal - retorna todos os perfis ===
 app.get("/api/profiles", (req, res) => {
@@ -63,6 +71,45 @@ app.get("/api/profile/:id", (req, res) => {
   const perfil = profiles.find((p) => p.id === parseInt(req.params.id));
   if (!perfil) return res.status(404).json({ erro: "Perfil não encontrado" });
   res.json(perfil);
+});
+
+// === Rota de LOGIN para perfis de demo ===
+app.post("/api/login", (req, res) => {
+  const { email, senha } = req.body;
+
+  console.log("🔐 Tentativa de login:", req.body);
+
+  if (!email || !senha) {
+    return res.status(400).json({ erro: "Informe e-mail e senha" });
+  }
+
+  const user = demoUsers.find(
+    (u) => u.email === email && u.senha === senha
+  );
+
+  if (!user) {
+    console.log("❌ Credenciais inválidas para:", email);
+    return res.status(401).json({ erro: "Credenciais inválidas" });
+  }
+
+  // Busca o perfil correspondente no JSON
+  const perfil = profiles.find((p) => p.id === user.profileId);
+
+  if (!perfil) {
+    console.error("❌ Perfil não encontrado para profileId:", user.profileId);
+    return res
+      .status(500)
+      .json({ erro: "Perfil associado ao usuário não foi encontrado" });
+  }
+
+  console.log("✅ Login OK:", email, "-> profileId:", user.profileId);
+
+  res.json({
+    message: "Login realizado com sucesso",
+    email: user.email,
+    profileId: user.profileId,
+    perfil,
+  });
 });
 
 // === Inicia o servidor ===
