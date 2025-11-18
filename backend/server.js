@@ -28,11 +28,11 @@ try {
 }
 
 // === Usuários especiais de DEMO (login) ===
-// profileId PRECISA existir dentro do profiles.json
+// profileId DEVE existir dentro do profiles.json
 const demoUsers = [
-  { email: "devjose@gmail.com",   senha: "jose123",   profileId: 101 },
-  { email: "devwalter@gmail.com", senha: "walter123", profileId: 102 },
-  { email: "devsievers@gmail.com",senha: "sievers123",profileId: 103 },
+  { email: "devjose@gmail.com",    senha: "jose123",    profileId: 101 },
+  { email: "devwalter@gmail.com",  senha: "walter123",  profileId: 102 },
+  { email: "devsievers@gmail.com", senha: "sievers123", profileId: 103 },
 ];
 
 // === Rota principal - retorna todos os perfis ===
@@ -77,7 +77,7 @@ app.get("/api/profile/:id", (req, res) => {
 app.post("/api/login", (req, res) => {
   const { email, senha } = req.body;
 
-  console.log("🔐 Tentativa de login:", req.body);
+  console.log("🔐 Tentativa de login, body recebido:", req.body);
 
   if (!email || !senha) {
     return res.status(400).json({ erro: "Informe e-mail e senha" });

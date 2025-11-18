@@ -158,9 +158,14 @@ export default function App() {
 
       const data = await res.json();
 
-      // backend: { email, profileId, ... }
-      setUser({ email: data.email, profileId: data.profileId });
-      setShowLogin(false);
+    // backend: { email, profileId, perfil }
+    setUser({
+      email: data.email,
+      profileId: data.profileId,
+      name: data.perfil?.nome, // nome que está no profiles.json
+    });
+    setShowLogin(false);
+
     } catch (err) {
       setLoginError(err.message);
     } finally {

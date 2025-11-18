@@ -5409,7 +5409,7 @@
   {
     "id": 101,
     "nome": "José Rafael Tejeda Mantilla",
-    "foto": "/public/images/Jose.jpeg",
+    "foto": "/Jose.jpeg",
     "cargo": "FullStack/Game Developer Na Rockstar Games",
     "resumo": "Profissional com experiência em equipes multidisciplinares, criador de varios jogos famosos e foco em resultados.",
     "localizacao": "São Paulo, Pirituba, SP",
@@ -5465,7 +5465,7 @@
   {
     "id": 102,
     "nome": "Walter Henrique Pereira de Toledo",
-    "foto": "/public/images/Walter.jpeg",
+    "foto": "/Walter.jpeg",
     "cargo": "Growth Specialist",
     "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
     "localizacao": "Salvador, BA",
@@ -5519,7 +5519,7 @@
   {
     "id": 103,
     "nome": "Theodoro Sievers",
-    "foto": "/public/images/Theo.jpg",
+    "foto": "/Theo.jpg",
     "cargo": "Growth Specialist",
     "resumo": "Profissional com experiência em equipes multidisciplinares e foco em resultados.",
     "localizacao": "Salvador, BA",

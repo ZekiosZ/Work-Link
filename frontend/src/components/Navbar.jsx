@@ -1,9 +1,14 @@
 import React from "react";
-import { Link, useLocation } from "react-router-dom";
-
+import { Link, useLocation, useNavigate } from "react-router-dom";
 
 export default function Navbar({ dark, setDark, user, onLoginClick, onLogout }) {
   const { pathname } = useLocation();
+  const navigate = useNavigate();
+
+  const handleProfileClick = () => {
+    if (!user?.profileId) return;
+    navigate(`/profiles/${user.profileId}`);
+  };
 
   return (
     <header className="sticky top-0 z-40 border-b token-border bg-[var(--color-card)]/80 backdrop-blur">
@@ -54,9 +59,19 @@ export default function Navbar({ dark, setDark, user, onLoginClick, onLogout }) 
             </button>
           ) : (
             <div className="flex items-center gap-2">
-              <span className="rounded-full bg-[var(--color-bg)] px-3 py-1 text-xs font-medium token-muted border token-border">
-                Logado como <span className="font-semibold">{user.username}</span>
-              </span>
+              {/* Chip clicável com nome do usuário */}
+              <button
+                type="button"
+                onClick={handleProfileClick}
+                className="flex flex-col items-start rounded-full border token-border bg-[var(--color-bg)] px-3 py-1 text-xs shadow-sm hover:bg-[var(--color-bg-soft)] transition-colors"
+              >
+                <span className="token-muted leading-none">Logado como</span>
+                <span className="font-semibold leading-none">
+                  {user.name || user.email}
+                </span>
+              </button>
+
+              {/* Botão de sair */}
               <button
                 onClick={onLogout}
                 className="btn btn-ghost text-xs"
